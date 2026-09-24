@@ -1,0 +1,10 @@
+-r requirements.txt
+# Optional original baselines, maps, and seasonal-weather experiments.
+catboost>=1.2
+xgboost>=2.0
+xarray>=2023.1
+cdsapi>=0.7
+cartopy>=0.22
+pyshp>=2.3
+faiss-cpu>=1.7
+diffusers>=0.27

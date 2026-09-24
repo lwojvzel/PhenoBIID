@@ -1,0 +1,14 @@
+{
+  "product": "ndvi",
+  "seed": 45,
+  "epochs": 10,
+  "batch": 256,
+  "optimizer": {
+    "lr": 0.0003,
+    "weight_decay": 0.0001
+  },
+  "selection_repeated": false,
+  "full_training_rows": 203915,
+  "source_identity": "cbbc7d74dcbb6de0d3c6875d3dc0577107a80717668d8f4326195308ab7d6e5e",
+  "full_refit_only": true
+}

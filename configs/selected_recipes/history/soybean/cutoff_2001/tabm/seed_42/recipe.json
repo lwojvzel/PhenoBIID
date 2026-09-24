@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "epochs": 0,
+  "component": "tabm",
+  "normalization": {
+    "scale": 0.3749308345300721
+  },
+  "initialization_component": true,
+  "optimizer_steps": 0,
+  "target_dtype": "float32",
+  "target_bytes_sha256": "6bd5c43c3ab3f6b0c65f4312a36ded7946f5cd40fbe954ac58dc89ee1720d8ad",
+  "mlp_anchor": "Reconstructed same-seed MLP",
+  "model_selection": false,
+  "all_training_rows": true
+}

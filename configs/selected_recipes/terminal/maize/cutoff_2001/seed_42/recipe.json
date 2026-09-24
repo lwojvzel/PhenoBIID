@@ -1,0 +1,86 @@
+{
+  "seed": 42,
+  "branches": [
+    {
+      "name": "trend",
+      "parameters": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 0.9,
+        "importance_type": "split",
+        "learning_rate": 0.03,
+        "max_depth": -1,
+        "min_child_samples": 200,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 393,
+        "n_jobs": 4,
+        "num_leaves": 15,
+        "objective": "regression",
+        "random_state": 42,
+        "reg_alpha": 0.0,
+        "reg_lambda": 10.0,
+        "subsample": 0.9,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 1,
+        "verbosity": -1,
+        "deterministic": true,
+        "force_col_wise": true,
+        "metric": "None"
+      },
+      "normalization": {
+        "center": 0.021721719946601832,
+        "scale": 0.9499611068664773
+      },
+      "head": "lightgbm",
+      "original_fitted_trees": 393,
+      "residual_dtype": "float32",
+      "residual_bytes_sha256": "f9f55a44eb70526f34184667a11b138b5922402a64899b352b43b22a5a4e547d"
+    },
+    {
+      "name": "mlp",
+      "parameters": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 0.9,
+        "importance_type": "split",
+        "learning_rate": 0.03,
+        "max_depth": -1,
+        "min_child_samples": 200,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 188,
+        "n_jobs": 4,
+        "num_leaves": 15,
+        "objective": "regression",
+        "random_state": 42,
+        "reg_alpha": 0.0,
+        "reg_lambda": 10.0,
+        "subsample": 0.9,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 1,
+        "verbosity": -1,
+        "deterministic": true,
+        "force_col_wise": true,
+        "metric": "None"
+      },
+      "normalization": {
+        "center": 0.004529292383326906,
+        "scale": 0.7147423938864921
+      },
+      "head": "frozen_mlp_lightgbm",
+      "original_fitted_trees": 188,
+      "residual_dtype": "float64",
+      "residual_bytes_sha256": "4c1068ec32559db7dd0082970b7593a1c93842cc06e7f34fa8fe006e5f17056e"
+    }
+  ],
+  "historical": {
+    "component": "mlp",
+    "selected_epochs": 27,
+    "initialization_component": false
+  },
+  "historical_frozen": true,
+  "original_development_capacity_retained": true,
+  "normalization_refitted": false,
+  "early_stopping": false
+}

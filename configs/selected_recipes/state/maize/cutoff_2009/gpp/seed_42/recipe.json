@@ -1,0 +1,14 @@
+{
+  "product": "gpp",
+  "seed": 42,
+  "epochs": 15,
+  "batch": 256,
+  "optimizer": {
+    "lr": 0.0003,
+    "weight_decay": 0.0001
+  },
+  "selection_repeated": false,
+  "full_training_rows": 308056,
+  "source_identity": "3cc181b88af7b16a6d73d0ba815488124072ae485587ac4b27b9f7ab4ad0a1db",
+  "full_refit_only": true
+}

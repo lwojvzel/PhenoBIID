@@ -17,7 +17,10 @@ to a crop-specific, history-anchored yield readout.
 - `data/reference/`: machine-readable values reported in the manuscript.
 - `data/sample/`: a 22 MB real-data sample with four crops and four cutoffs.
 - `configs/`: fixed paper protocol and source-product registry.
-- `scripts/`: source-product conversion and aggregation utilities.
+- `configs/selected_recipes/`: history, state, and yield-head refit settings.
+- `scripts/`: raw reconstruction and independent feature-building entrypoints.
+- `reconstruction/`: dependency-light preprocessing definitions.
+- `workflow/`: original experiment sources with provenance and licenses.
 - `docs/`: dataset, evaluation, and reproducibility documentation.
 
 ## Quick check
@@ -27,6 +30,7 @@ python -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python evaluation/validate_reference.py
+.venv/bin/python evaluation/rebuild_main_table.py --output outputs/main_table.csv
 ```
 
 Evaluate a prediction CSV containing `crop`, `year`, `target`, and
@@ -66,6 +70,11 @@ a separate nine-year sensitivity analysis, not an operational forecast claim.
 
 See [docs/EVALUATION.md](docs/EVALUATION.md) for metric definitions and
 [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for the release boundary.
+Raw-data layout, stage commands, temporal splits, and verified versus pending
+steps are described in [docs/RECONSTRUCTION.md](docs/RECONSTRUCTION.md).
+Full fresh-clone retraining is not yet verified: some original training
+entrypoints still require earlier experiment caches. The small sample and
+table reconstruction are executable checks, not replacements for that test.
 
 ## Citation
 

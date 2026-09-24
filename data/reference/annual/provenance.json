@@ -1,0 +1,20 @@
+{
+  "paired_10_30_50.csv": {
+    "original_project_relative_path": "visualize/paper_experiments/inseason_paired_seeds_v1/all/annual.csv",
+    "sha256": "f66e998310e5919abae703b6235c9cc0e13e220c0289483c384ba3542dd434f2"
+  },
+  "paired_70.csv": {
+    "original_project_relative_path": "visualize/paper_experiments/inseason_70_v1/annual.csv",
+    "sha256": "9f57ca8596bb01ebce99fed019925d7ca8b72da16c939be18a073f61b908ea4b"
+  },
+  "direct_seed42.csv": {
+    "original_project_relative_path": "visualize/paper_experiments/inseason_direct_extension_v1/annual.csv",
+    "sha256": "9170a682dc38cd71311458c5bbc96c0a37a87aa8b0b826003448ed0583e28337",
+    "seed": 42
+  },
+  "history_and_extended_seed42.csv": {
+    "original_project_relative_path": "visualize/paper_experiments/inseason_13year_v1/annual.csv",
+    "sha256": "a4be85a1389cc6bb12d7c077096849653922862e8fe724dfce9cdbf09c2c1e18",
+    "seed": 42
+  }
+}

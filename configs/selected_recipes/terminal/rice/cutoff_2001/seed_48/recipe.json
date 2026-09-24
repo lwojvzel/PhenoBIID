@@ -1,0 +1,50 @@
+{
+  "seed": 48,
+  "branches": [
+    {
+      "name": "expert",
+      "parameters": {
+        "boosting_type": "gbdt",
+        "class_weight": null,
+        "colsample_bytree": 0.9,
+        "importance_type": "split",
+        "learning_rate": 0.03,
+        "max_depth": -1,
+        "min_child_samples": 200,
+        "min_child_weight": 0.001,
+        "min_split_gain": 0.0,
+        "n_estimators": 290,
+        "n_jobs": 4,
+        "num_leaves": 15,
+        "objective": "regression",
+        "random_state": 48,
+        "reg_alpha": 0.0,
+        "reg_lambda": 10.0,
+        "subsample": 0.9,
+        "subsample_for_bin": 200000,
+        "subsample_freq": 1,
+        "verbosity": -1,
+        "deterministic": true,
+        "force_col_wise": true,
+        "metric": "None"
+      },
+      "normalization": {
+        "center": 0.007461994376500091,
+        "scale": 0.7977997428358905
+      },
+      "head": "frozen_mlp_lightgbm",
+      "original_fitted_trees": 290,
+      "residual_dtype": "float64",
+      "residual_bytes_sha256": "94b2f954b4c98c6998a66379a9c6d3a80057cfb8b49f63c6c5dfcaeb28c712ac"
+    }
+  ],
+  "historical": {
+    "component": "mlp",
+    "selected_epochs": 10,
+    "initialization_component": false
+  },
+  "historical_frozen": true,
+  "original_development_capacity_retained": true,
+  "normalization_refitted": false,
+  "early_stopping": false
+}

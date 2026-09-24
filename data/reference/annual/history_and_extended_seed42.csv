@@ -1,0 +1,2237 @@
+crop,method,year,rmse
+maize,global_mean,2002,3.885475198658234
+maize,global_mean,2003,3.746445500732455
+maize,global_mean,2004,4.192561380526868
+maize,global_mean,2006,4.048258891610598
+maize,global_mean,2007,4.068403974159751
+maize,global_mean,2008,4.153937440467979
+maize,global_mean,2010,4.115974408388726
+maize,global_mean,2011,4.203168147751871
+maize,global_mean,2012,3.8451315126765957
+maize,global_mean,2013,4.403247896482072
+maize,global_mean,2014,4.761141056062882
+maize,global_mean,2015,4.949137723310942
+maize,global_mean,2016,4.715603850171536
+maize,grid_climatology,2002,1.137193191329783
+maize,grid_climatology,2003,1.8143276407688274
+maize,grid_climatology,2004,1.4382594487171958
+maize,grid_climatology,2006,1.2426585887049013
+maize,grid_climatology,2007,1.3408243726034392
+maize,grid_climatology,2008,1.449412757934058
+maize,grid_climatology,2010,1.4934282139521102
+maize,grid_climatology,2011,1.387440137067282
+maize,grid_climatology,2012,1.3350821271604927
+maize,grid_climatology,2013,1.669456617773682
+maize,grid_climatology,2014,1.8549186078331432
+maize,grid_climatology,2015,2.4274688993554943
+maize,grid_climatology,2016,1.7316765041369095
+maize,previous_year,2002,0.7308002401788442
+maize,previous_year,2003,1.6276905215430806
+maize,previous_year,2004,0.9544325969095812
+maize,previous_year,2006,0.6945312519364863
+maize,previous_year,2007,0.8766635160162387
+maize,previous_year,2008,0.9650898100033578
+maize,previous_year,2010,0.9737357467757808
+maize,previous_year,2011,0.9392028443201759
+maize,previous_year,2012,0.8920368499594417
+maize,previous_year,2013,1.2475121365196047
+maize,previous_year,2014,0.8140723988415502
+maize,previous_year,2015,1.503772110677572
+maize,previous_year,2016,1.5489876398717248
+maize,rolling_mean_3,2002,0.686576362021255
+maize,rolling_mean_3,2003,1.5905497478821062
+maize,rolling_mean_3,2004,0.8973994467603776
+maize,rolling_mean_3,2006,0.6536248992420508
+maize,rolling_mean_3,2007,0.7776048206001519
+maize,rolling_mean_3,2008,0.8044425254286369
+maize,rolling_mean_3,2010,0.7891796464165942
+maize,rolling_mean_3,2011,0.7561385505415932
+maize,rolling_mean_3,2012,1.012185523625145
+maize,rolling_mean_3,2013,0.9198981836023207
+maize,rolling_mean_3,2014,1.0054170298980132
+maize,rolling_mean_3,2015,1.4688762668010176
+maize,rolling_mean_3,2016,0.7560285243592224
+maize,rolling_mean_5,2002,0.669358641888464
+maize,rolling_mean_5,2003,1.5875934173381774
+maize,rolling_mean_5,2004,0.929128127399634
+maize,rolling_mean_5,2006,0.6584158769162243
+maize,rolling_mean_5,2007,0.7511010437185478
+maize,rolling_mean_5,2008,0.8330775377618463
+maize,rolling_mean_5,2010,0.8131546136145488
+maize,rolling_mean_5,2011,0.7485326426704602
+maize,rolling_mean_5,2012,1.0044179975058227
+maize,rolling_mean_5,2013,0.8717814923303132
+maize,rolling_mean_5,2014,0.8966646453669569
+maize,rolling_mean_5,2015,1.5501006672604203
+maize,rolling_mean_5,2016,0.8043380795667989
+maize,exponential_smoothing,2002,0.6539555933279746
+maize,exponential_smoothing,2003,1.5894281278452844
+maize,exponential_smoothing,2004,0.8926664112583051
+maize,exponential_smoothing,2006,0.6288185844224008
+maize,exponential_smoothing,2007,0.7657789328399868
+maize,exponential_smoothing,2008,0.8166838054937473
+maize,exponential_smoothing,2010,0.8112666176440779
+maize,exponential_smoothing,2011,0.7719301740645367
+maize,exponential_smoothing,2012,0.9307714718649884
+maize,exponential_smoothing,2013,0.972221752353408
+maize,exponential_smoothing,2014,0.8978005541884556
+maize,exponential_smoothing,2015,1.4555314974951066
+maize,exponential_smoothing,2016,0.8979287834677346
+maize,linear_trend,2002,0.6815424977137959
+maize,linear_trend,2003,1.603908339837534
+maize,linear_trend,2004,0.8739528486973281
+maize,linear_trend,2006,0.6751082679441971
+maize,linear_trend,2007,0.7528491823355089
+maize,linear_trend,2008,0.8782730309587874
+maize,linear_trend,2010,0.8469976925712761
+maize,linear_trend,2011,0.8740003266697923
+maize,linear_trend,2012,1.1902341986285154
+maize,linear_trend,2013,0.9855909226810851
+maize,linear_trend,2014,0.8843162079630756
+maize,linear_trend,2015,1.5823789827535688
+maize,linear_trend,2016,0.7572712395369814
+maize,linear_regression,2002,0.6905601138091225
+maize,linear_regression,2003,1.5879797240002846
+maize,linear_regression,2004,0.8847442500175721
+maize,linear_regression,2006,0.6565726978181954
+maize,linear_regression,2007,0.7867524520124151
+maize,linear_regression,2008,0.8332926079566942
+maize,linear_regression,2010,0.7727465303400011
+maize,linear_regression,2011,0.8067880914217713
+maize,linear_regression,2012,1.1491000737219326
+maize,linear_regression,2013,0.8813566000057776
+maize,linear_regression,2014,0.780679091691283
+maize,linear_regression,2015,1.5009240014264962
+maize,linear_regression,2016,0.8186918013497412
+maize,ridge,2002,0.6907370924224107
+maize,ridge,2003,1.5870059745127454
+maize,ridge,2004,0.883352214220493
+maize,ridge,2006,0.6567291082522402
+maize,ridge,2007,0.7866678606841543
+maize,ridge,2008,0.8333439942448668
+maize,ridge,2010,0.7727919856892266
+maize,ridge,2011,0.8070979592144115
+maize,ridge,2012,1.149668459336216
+maize,ridge,2013,0.8814642362984159
+maize,ridge,2014,0.7807012432947897
+maize,ridge,2015,1.5009499959260562
+maize,ridge,2016,0.8179190385743748
+maize,lasso,2002,0.6933016020783052
+maize,lasso,2003,1.529185250208401
+maize,lasso,2004,0.8477730567167201
+maize,lasso,2006,0.6573362279018388
+maize,lasso,2007,0.7828033917220767
+maize,lasso,2008,0.835681165261504
+maize,lasso,2010,0.7764797977276855
+maize,lasso,2011,0.816069187269024
+maize,lasso,2012,1.1635479365980952
+maize,lasso,2013,0.8854104252492313
+maize,lasso,2014,0.782433306125162
+maize,lasso,2015,1.5045982490152998
+maize,lasso,2016,0.8018439803051589
+maize,elastic_net,2002,0.693742319012052
+maize,elastic_net,2003,1.537417021107591
+maize,elastic_net,2004,0.846094547980973
+maize,elastic_net,2006,0.658592918285412
+maize,elastic_net,2007,0.784323861884
+maize,elastic_net,2008,0.8351978768179693
+maize,elastic_net,2010,0.7754919099645484
+maize,elastic_net,2011,0.8152088266057933
+maize,elastic_net,2012,1.163293645634985
+maize,elastic_net,2013,0.885223177365916
+maize,elastic_net,2014,0.7824826981610863
+maize,elastic_net,2015,1.5036371935174353
+maize,elastic_net,2016,0.8017294921025203
+maize,huber,2002,0.6692334975765125
+maize,huber,2003,1.5464857762124362
+maize,huber,2004,0.8550713826230156
+maize,huber,2006,0.6398843073751525
+maize,huber,2007,0.7768877942315414
+maize,huber,2008,0.8804461042247003
+maize,huber,2010,0.7873935758091967
+maize,huber,2011,0.7974686480774108
+maize,huber,2012,1.1300436007215264
+maize,huber,2013,0.898354238754753
+maize,huber,2014,0.8067720806966526
+maize,huber,2015,1.5063327657891352
+maize,huber,2016,0.974370854434341
+maize,linear_svr,2002,0.6905717230765474
+maize,linear_svr,2003,1.5879419457875488
+maize,linear_svr,2004,0.884687092949918
+maize,linear_svr,2006,0.65658342377829
+maize,linear_svr,2007,0.7867445359808203
+maize,linear_svr,2008,0.8332960547828885
+maize,linear_svr,2010,0.7727347115072883
+maize,linear_svr,2011,0.8068024692100211
+maize,linear_svr,2012,1.1491140309555947
+maize,linear_svr,2013,0.881360295520354
+maize,linear_svr,2014,0.7806571715922762
+maize,linear_svr,2015,1.500919020558711
+maize,linear_svr,2016,0.818677023502953
+maize,approximate_knn,2002,0.7924754615671814
+maize,approximate_knn,2003,1.1958527920318511
+maize,approximate_knn,2004,1.034275474842781
+maize,approximate_knn,2006,0.712053229207212
+maize,approximate_knn,2007,0.8752278556874858
+maize,approximate_knn,2008,0.7750750887870267
+maize,approximate_knn,2010,0.8858012233822928
+maize,approximate_knn,2011,0.9259257490173202
+maize,approximate_knn,2012,1.2593958475834732
+maize,approximate_knn,2013,0.9176164389094611
+maize,approximate_knn,2014,0.8044764983929252
+maize,approximate_knn,2015,1.6694108129171348
+maize,approximate_knn,2016,0.8470179962119075
+maize,decision_tree,2002,0.7900288790255495
+maize,decision_tree,2003,1.1782829526555254
+maize,decision_tree,2004,0.9556303774444682
+maize,decision_tree,2006,0.7874814227810916
+maize,decision_tree,2007,0.8465397513920504
+maize,decision_tree,2008,0.8599276526944047
+maize,decision_tree,2010,0.9360503817208994
+maize,decision_tree,2011,0.9860682951199783
+maize,decision_tree,2012,1.3299702043679524
+maize,decision_tree,2013,0.9655706142067563
+maize,decision_tree,2014,0.9011474309557156
+maize,decision_tree,2015,1.6596193371044663
+maize,decision_tree,2016,0.9610966663096787
+maize,random_forest,2002,0.7252014319265668
+maize,random_forest,2003,1.1018726892124302
+maize,random_forest,2004,0.8927002946305885
+maize,random_forest,2006,0.6635987919182138
+maize,random_forest,2007,0.7741067279802749
+maize,random_forest,2008,0.6947821255738194
+maize,random_forest,2010,0.8778036568585796
+maize,random_forest,2011,0.8804858851112246
+maize,random_forest,2012,1.257750340730783
+maize,random_forest,2013,0.8669471031993884
+maize,random_forest,2014,0.7716924574860169
+maize,random_forest,2015,1.6092272823279026
+maize,random_forest,2016,0.7806704610076144
+maize,extra_trees,2002,0.6944007963361928
+maize,extra_trees,2003,1.0339738200408477
+maize,extra_trees,2004,0.9144096484902157
+maize,extra_trees,2006,0.6473976556366268
+maize,extra_trees,2007,0.7841941459865752
+maize,extra_trees,2008,0.7296731209464989
+maize,extra_trees,2010,0.844210957448243
+maize,extra_trees,2011,0.8569777224436106
+maize,extra_trees,2012,1.2468593628195814
+maize,extra_trees,2013,0.87963645021679
+maize,extra_trees,2014,0.7388986004693641
+maize,extra_trees,2015,1.5892669083476996
+maize,extra_trees,2016,0.7753161761259038
+maize,hist_gradient_boosting,2002,0.674487820663486
+maize,hist_gradient_boosting,2003,1.2373062839174718
+maize,hist_gradient_boosting,2004,0.8818798251563044
+maize,hist_gradient_boosting,2006,0.6655125610110464
+maize,hist_gradient_boosting,2007,0.7864938182667066
+maize,hist_gradient_boosting,2008,0.7041054525205039
+maize,hist_gradient_boosting,2010,0.8113003653384012
+maize,hist_gradient_boosting,2011,0.8397362258911175
+maize,hist_gradient_boosting,2012,1.234726068576573
+maize,hist_gradient_boosting,2013,0.8429904765712206
+maize,hist_gradient_boosting,2014,0.7339119915111559
+maize,hist_gradient_boosting,2015,1.5531663951955534
+maize,hist_gradient_boosting,2016,0.755234847380084
+maize,lightgbm,2002,0.6742096214544802
+maize,lightgbm,2003,1.2101520046404308
+maize,lightgbm,2004,0.8779923598445356
+maize,lightgbm,2006,0.6530432982762787
+maize,lightgbm,2007,0.7581877874428569
+maize,lightgbm,2008,0.7310556409747991
+maize,lightgbm,2010,0.7977404901197424
+maize,lightgbm,2011,0.8305458738695702
+maize,lightgbm,2012,1.1982955520180318
+maize,lightgbm,2013,0.8869145684788484
+maize,lightgbm,2014,0.8151038342550114
+maize,lightgbm,2015,1.5584736149300444
+maize,lightgbm,2016,0.7403250448739879
+maize,xgboost,2002,0.6798551967128273
+maize,xgboost,2003,1.1956072737074959
+maize,xgboost,2004,0.8737736635742709
+maize,xgboost,2006,0.6580485597871781
+maize,xgboost,2007,0.7480404082656387
+maize,xgboost,2008,0.7452266877244487
+maize,xgboost,2010,0.8107146072297133
+maize,xgboost,2011,0.8445452005896222
+maize,xgboost,2012,1.2044243610307952
+maize,xgboost,2013,0.9015587745171737
+maize,xgboost,2014,0.8358758470459049
+maize,xgboost,2015,1.558361491161456
+maize,xgboost,2016,0.7501450796424937
+maize,mlp,2002,0.6914886567125695
+maize,mlp,2003,1.1973656293169523
+maize,mlp,2004,0.8296057151965353
+maize,mlp,2006,0.7683518996468137
+maize,mlp,2007,0.8538686035569399
+maize,mlp,2008,0.7870544303154209
+maize,mlp,2010,0.753141826678846
+maize,mlp,2011,0.797723934673466
+maize,mlp,2012,1.1275378976722905
+maize,mlp,2013,0.8051251195123004
+maize,mlp,2014,0.7639160300515365
+maize,mlp,2015,1.4583630704227704
+maize,mlp,2016,0.8486938970340258
+maize,rnn,2002,0.6654505838145789
+maize,rnn,2003,1.355384287773789
+maize,rnn,2004,0.833120801956456
+maize,rnn,2006,0.7111893838163861
+maize,rnn,2007,0.7783755089505489
+maize,rnn,2008,0.79112598381609
+maize,rnn,2010,0.7643104101948441
+maize,rnn,2011,0.8365189997023793
+maize,rnn,2012,1.1668513213443716
+maize,rnn,2013,0.8405606406625926
+maize,rnn,2014,0.733987352619447
+maize,rnn,2015,1.463356227759398
+maize,rnn,2016,0.87432113604979
+maize,lstm,2002,0.6577849946856611
+maize,lstm,2003,1.3623681514627595
+maize,lstm,2004,0.856157432171184
+maize,lstm,2006,0.6725822620518813
+maize,lstm,2007,0.7648759958088114
+maize,lstm,2008,0.814817635963117
+maize,lstm,2010,0.7654639906955227
+maize,lstm,2011,0.8174037415069579
+maize,lstm,2012,1.1784540645539083
+maize,lstm,2013,0.8295940136260516
+maize,lstm,2014,0.7145846733131234
+maize,lstm,2015,1.4461961698127832
+maize,lstm,2016,0.8727784863899081
+maize,tcn,2002,0.7060053650214965
+maize,tcn,2003,1.1878667899657376
+maize,tcn,2004,0.8009746617771539
+maize,tcn,2006,0.7586984819877667
+maize,tcn,2007,0.8191665464121005
+maize,tcn,2008,0.8415560152628349
+maize,tcn,2010,0.7642523239983129
+maize,tcn,2011,0.7904611665218442
+maize,tcn,2012,1.1543119712225043
+maize,tcn,2013,0.8529024917026591
+maize,tcn,2014,0.7817390670446492
+maize,tcn,2015,1.4746006177603452
+maize,tcn,2016,0.7476548083226292
+maize,gru,2002,0.653385570915183
+maize,gru,2003,1.410377227898383
+maize,gru,2004,0.8585243995172794
+maize,gru,2006,0.7056041130781254
+maize,gru,2007,0.7957806189379781
+maize,gru,2008,0.8298384694829686
+maize,gru,2010,0.7653420673130641
+maize,gru,2011,0.8014638966629616
+maize,gru,2012,1.124700972693102
+maize,gru,2013,0.8399064127600262
+maize,gru,2014,0.7287184764911898
+maize,gru,2015,1.4578654957462476
+maize,gru,2016,0.8384816701375776
+maize,transformer,2002,0.6815074130270284
+maize,transformer,2003,1.15547780653901
+maize,transformer,2004,0.8415844037017193
+maize,transformer,2006,0.7013597801622212
+maize,transformer,2007,0.7856407640489584
+maize,transformer,2008,0.8384796307414246
+maize,transformer,2010,0.7724410875412312
+maize,transformer,2011,0.834508495057031
+maize,transformer,2012,1.1895374153911178
+maize,transformer,2013,0.8719544116289308
+maize,transformer,2014,0.7775924002860922
+maize,transformer,2015,1.5157297762271462
+maize,transformer,2016,0.8711227533358435
+maize,hgb_mlp_ensemble,2002,0.676417014741141
+maize,hgb_mlp_ensemble,2003,1.1518268097723146
+maize,hgb_mlp_ensemble,2004,0.8478271361027724
+maize,hgb_mlp_ensemble,2006,0.7022156996073043
+maize,hgb_mlp_ensemble,2007,0.8028943760038904
+maize,hgb_mlp_ensemble,2008,0.724396840955945
+maize,hgb_mlp_ensemble,2010,0.7716259879061547
+maize,hgb_mlp_ensemble,2011,0.806976302014427
+maize,hgb_mlp_ensemble,2012,1.1738089528507056
+maize,hgb_mlp_ensemble,2013,0.8035897524183324
+maize,hgb_mlp_ensemble,2014,0.7248836704426478
+maize,hgb_mlp_ensemble,2015,1.495488293993867
+maize,hgb_mlp_ensemble,2016,0.7496939976315379
+maize,world_model,2002,0.6313530114599294
+maize,world_model,2003,1.0765939941994664
+maize,world_model,2004,0.8030034360043635
+maize,world_model,2006,0.6364427791912357
+maize,world_model,2007,0.7298960074123663
+maize,world_model,2008,0.7023265231699043
+maize,world_model,2010,0.7203232845792805
+maize,world_model,2011,0.785795129138293
+maize,world_model,2012,1.0512515410756038
+maize,world_model,2013,0.8162831519065936
+maize,world_model,2014,0.7540188411079584
+maize,world_model,2015,1.5307515869473043
+maize,world_model,2016,0.6934091061795126
+maize,extended:ModernNCA residual,2002,0.7187845573527932
+maize,extended:ModernNCA residual,2003,1.1245094732971725
+maize,extended:ModernNCA residual,2004,0.8475728378798741
+maize,extended:ModernNCA residual,2006,0.6524324210014888
+maize,extended:ModernNCA residual,2007,0.752274046035463
+maize,extended:ModernNCA residual,2008,0.7360787657116983
+maize,extended:ModernNCA residual,2010,0.7655601727174942
+maize,extended:ModernNCA residual,2011,0.8125128729229167
+maize,extended:ModernNCA residual,2012,1.1552442302749504
+maize,extended:ModernNCA residual,2013,0.8545967173121476
+maize,extended:ModernNCA residual,2014,0.8015801063130193
+maize,extended:ModernNCA residual,2015,1.466343151897054
+maize,extended:ModernNCA residual,2016,0.7763212600424534
+maize,"extended:Ridge residual, lambda=0.001",2002,0.7097695735680083
+maize,"extended:Ridge residual, lambda=0.001",2003,1.1807964482520459
+maize,"extended:Ridge residual, lambda=0.001",2004,0.8359184557959598
+maize,"extended:Ridge residual, lambda=0.001",2006,0.6650962959713675
+maize,"extended:Ridge residual, lambda=0.001",2007,0.7706474852064291
+maize,"extended:Ridge residual, lambda=0.001",2008,0.7231454952664021
+maize,"extended:Ridge residual, lambda=0.001",2010,0.7696578677801127
+maize,"extended:Ridge residual, lambda=0.001",2011,0.8111533379483766
+maize,"extended:Ridge residual, lambda=0.001",2012,1.1611791817210986
+maize,"extended:Ridge residual, lambda=0.001",2013,0.8507766222254642
+maize,"extended:Ridge residual, lambda=0.001",2014,0.7580789628155179
+maize,"extended:Ridge residual, lambda=0.001",2015,1.4597417226117677
+maize,"extended:Ridge residual, lambda=0.001",2016,0.82342317517983
+maize,"extended:Ridge residual, lambda=10",2002,0.7085480341679694
+maize,"extended:Ridge residual, lambda=10",2003,1.1793940155729126
+maize,"extended:Ridge residual, lambda=10",2004,0.8395844743458072
+maize,"extended:Ridge residual, lambda=10",2006,0.6528035684002866
+maize,"extended:Ridge residual, lambda=10",2007,0.7532318323942577
+maize,"extended:Ridge residual, lambda=10",2008,0.7361703472437985
+maize,"extended:Ridge residual, lambda=10",2010,0.7702538258161027
+maize,"extended:Ridge residual, lambda=10",2011,0.818723933319217
+maize,"extended:Ridge residual, lambda=10",2012,1.1718866810672912
+maize,"extended:Ridge residual, lambda=10",2013,0.8592290144717674
+maize,"extended:Ridge residual, lambda=10",2014,0.7925292600747187
+maize,"extended:Ridge residual, lambda=10",2015,1.4683683042890447
+maize,"extended:Ridge residual, lambda=10",2016,0.7754173128762252
+maize,"extended:TabM residual (forward, 1993+)",2002,0.7090288795520077
+maize,"extended:TabM residual (forward, 1993+)",2003,1.1794948023166776
+maize,"extended:TabM residual (forward, 1993+)",2004,0.839279749966586
+maize,"extended:TabM residual (forward, 1993+)",2006,0.6525474073482082
+maize,"extended:TabM residual (forward, 1993+)",2007,0.754284333720742
+maize,"extended:TabM residual (forward, 1993+)",2008,0.734865118727035
+maize,"extended:TabM residual (forward, 1993+)",2010,0.7727673696916288
+maize,"extended:TabM residual (forward, 1993+)",2011,0.7899709248440964
+maize,"extended:TabM residual (forward, 1993+)",2012,1.0078068569694798
+maize,"extended:TabM residual (forward, 1993+)",2013,0.8357909942366404
+maize,"extended:TabM residual (forward, 1993+)",2014,0.8573942802546765
+maize,"extended:TabM residual (forward, 1993+)",2015,1.5614070069356352
+maize,"extended:TabM residual (forward, 1993+)",2016,0.8496367048516157
+maize,"extended:TabM residual (in-sample, 1993+)",2002,0.7090288795520077
+maize,"extended:TabM residual (in-sample, 1993+)",2003,1.1794948023166776
+maize,"extended:TabM residual (in-sample, 1993+)",2004,0.839279749966586
+maize,"extended:TabM residual (in-sample, 1993+)",2006,0.6525474073482082
+maize,"extended:TabM residual (in-sample, 1993+)",2007,0.754284333720742
+maize,"extended:TabM residual (in-sample, 1993+)",2008,0.734865118727035
+maize,"extended:TabM residual (in-sample, 1993+)",2010,0.7637315542861131
+maize,"extended:TabM residual (in-sample, 1993+)",2011,0.8002708040464509
+maize,"extended:TabM residual (in-sample, 1993+)",2012,1.1401555838671777
+maize,"extended:TabM residual (in-sample, 1993+)",2013,0.8259937499053593
+maize,"extended:TabM residual (in-sample, 1993+)",2014,0.7838456762342908
+maize,"extended:TabM residual (in-sample, 1993+)",2015,1.5173057986615859
+maize,"extended:TabM residual (in-sample, 1993+)",2016,0.7479460182104007
+maize,"extended:Ridge residual, lambda=1",2002,0.7105844348280982
+maize,"extended:Ridge residual, lambda=1",2003,1.1810930455425994
+maize,"extended:Ridge residual, lambda=1",2004,0.8363484610897071
+maize,"extended:Ridge residual, lambda=1",2006,0.6547550193742623
+maize,"extended:Ridge residual, lambda=1",2007,0.7571619466213271
+maize,"extended:Ridge residual, lambda=1",2008,0.7363065278159514
+maize,"extended:Ridge residual, lambda=1",2010,0.7760270144441009
+maize,"extended:Ridge residual, lambda=1",2011,0.8244449135563368
+maize,"extended:Ridge residual, lambda=1",2012,1.1918843614734997
+maize,"extended:Ridge residual, lambda=1",2013,0.8659923918607603
+maize,"extended:Ridge residual, lambda=1",2014,0.7817891808226518
+maize,"extended:Ridge residual, lambda=1",2015,1.474155549654665
+maize,"extended:Ridge residual, lambda=1",2016,0.7741494202630912
+maize,extended:TabM residual (PLE),2002,0.7075951958058803
+maize,extended:TabM residual (PLE),2003,1.1785399692419685
+maize,extended:TabM residual (PLE),2004,0.8419481668306066
+maize,extended:TabM residual (PLE),2006,0.6526476304955148
+maize,extended:TabM residual (PLE),2007,0.7525097533860498
+maize,extended:TabM residual (PLE),2008,0.7359800382252522
+maize,extended:TabM residual (PLE),2010,0.7674896346360347
+maize,extended:TabM residual (PLE),2011,0.8067015332431278
+maize,extended:TabM residual (PLE),2012,1.1438263732178033
+maize,extended:TabM residual (PLE),2013,0.8532140732144088
+maize,extended:TabM residual (PLE),2014,0.8064818811625645
+maize,extended:TabM residual (PLE),2015,1.471612157269535
+maize,extended:TabM residual (PLE),2016,0.7710781915558759
+maize,extended:Lag-feature MLP,2002,0.707099566284193
+maize,extended:Lag-feature MLP,2003,1.1783892624128478
+maize,extended:Lag-feature MLP,2004,0.8426007992497792
+maize,extended:Lag-feature MLP,2006,0.6888208885106609
+maize,extended:Lag-feature MLP,2007,0.7848649980928252
+maize,extended:Lag-feature MLP,2008,0.8112771268272113
+maize,extended:Lag-feature MLP,2010,0.7675340326068126
+maize,extended:Lag-feature MLP,2011,0.8062309234140842
+maize,extended:Lag-feature MLP,2012,1.1430854355754498
+maize,extended:Lag-feature MLP,2013,0.853078906277688
+maize,extended:Lag-feature MLP,2014,0.8069830303614662
+maize,extended:Lag-feature MLP,2015,1.472011860519828
+maize,extended:Lag-feature MLP,2016,0.7710656154732989
+maize,extended:TabM residual (full window),2002,0.7095266075784907
+maize,extended:TabM residual (full window),2003,1.179529651145773
+maize,extended:TabM residual (full window),2004,0.8395243258379725
+maize,extended:TabM residual (full window),2006,0.6525212365139417
+maize,extended:TabM residual (full window),2007,0.754434817540883
+maize,extended:TabM residual (full window),2008,0.7349058874647059
+maize,extended:TabM residual (full window),2010,0.7691459837572167
+maize,extended:TabM residual (full window),2011,0.8074875280584617
+maize,extended:TabM residual (full window),2012,1.139504359056512
+maize,extended:TabM residual (full window),2013,0.8080479336691562
+maize,extended:TabM residual (full window),2014,0.7743647115837157
+maize,extended:TabM residual (full window),2015,1.524710954219872
+maize,extended:TabM residual (full window),2016,0.7234732290179333
+maize,"extended:Ridge residual, lambda=0.01",2002,0.7117915936743403
+maize,"extended:Ridge residual, lambda=0.01",2003,1.1826835978943828
+maize,"extended:Ridge residual, lambda=0.01",2004,0.8346914378953801
+maize,"extended:Ridge residual, lambda=0.01",2006,0.6671162554471726
+maize,"extended:Ridge residual, lambda=0.01",2007,0.7698146256853007
+maize,"extended:Ridge residual, lambda=0.01",2008,0.7301575843754006
+maize,"extended:Ridge residual, lambda=0.01",2010,0.7723664374004287
+maize,"extended:Ridge residual, lambda=0.01",2011,0.8176759088209273
+maize,"extended:Ridge residual, lambda=0.01",2012,1.1784459555079956
+maize,"extended:Ridge residual, lambda=0.01",2013,0.8578538234219709
+maize,"extended:Ridge residual, lambda=0.01",2014,0.7643871896094732
+maize,"extended:Ridge residual, lambda=0.01",2015,1.4664493864991317
+maize,"extended:Ridge residual, lambda=0.01",2016,0.798725971078207
+maize,"extended:Ridge residual, lambda=0.1",2002,0.7121976551554527
+maize,"extended:Ridge residual, lambda=0.1",2003,1.1827028828259956
+maize,"extended:Ridge residual, lambda=0.1",2004,0.8348550297453632
+maize,"extended:Ridge residual, lambda=0.1",2006,0.6608288274017782
+maize,"extended:Ridge residual, lambda=0.1",2007,0.7651692208387212
+maize,"extended:Ridge residual, lambda=0.1",2008,0.7359133558461312
+maize,"extended:Ridge residual, lambda=0.1",2010,0.7764398485118341
+maize,"extended:Ridge residual, lambda=0.1",2011,0.8230387500651309
+maize,"extended:Ridge residual, lambda=0.1",2012,1.1954206445566962
+maize,"extended:Ridge residual, lambda=0.1",2013,0.867127416092367
+maize,"extended:Ridge residual, lambda=0.1",2014,0.7748854713044294
+maize,"extended:Ridge residual, lambda=0.1",2015,1.4764646021504004
+maize,"extended:Ridge residual, lambda=0.1",2016,0.7777732589168317
+maize,"extended:MLP residual (forward, 1993+)",2002,0.7087836441892709
+maize,"extended:MLP residual (forward, 1993+)",2003,1.1832265674001496
+maize,"extended:MLP residual (forward, 1993+)",2004,0.8392990178154285
+maize,"extended:MLP residual (forward, 1993+)",2006,0.652864472241614
+maize,"extended:MLP residual (forward, 1993+)",2007,0.751890239687764
+maize,"extended:MLP residual (forward, 1993+)",2008,0.7415357289141197
+maize,"extended:MLP residual (forward, 1993+)",2010,0.7941209213672944
+maize,"extended:MLP residual (forward, 1993+)",2011,0.7995955676775918
+maize,"extended:MLP residual (forward, 1993+)",2012,1.0250368194815809
+maize,"extended:MLP residual (forward, 1993+)",2013,0.8367642794644109
+maize,"extended:MLP residual (forward, 1993+)",2014,0.8480711487629906
+maize,"extended:MLP residual (forward, 1993+)",2015,1.6055571870551386
+maize,"extended:MLP residual (forward, 1993+)",2016,0.8619833771643565
+maize,"extended:MLP residual (in-sample, 1993+)",2002,0.7087836441892709
+maize,"extended:MLP residual (in-sample, 1993+)",2003,1.1832265674001496
+maize,"extended:MLP residual (in-sample, 1993+)",2004,0.8392990178154285
+maize,"extended:MLP residual (in-sample, 1993+)",2006,0.652864472241614
+maize,"extended:MLP residual (in-sample, 1993+)",2007,0.751890239687764
+maize,"extended:MLP residual (in-sample, 1993+)",2008,0.7415357289141197
+maize,"extended:MLP residual (in-sample, 1993+)",2010,0.7673101176364239
+maize,"extended:MLP residual (in-sample, 1993+)",2011,0.7990074031317708
+maize,"extended:MLP residual (in-sample, 1993+)",2012,1.082919179534502
+maize,"extended:MLP residual (in-sample, 1993+)",2013,0.8358786748299531
+maize,"extended:MLP residual (in-sample, 1993+)",2014,0.8397783807400044
+maize,"extended:MLP residual (in-sample, 1993+)",2015,1.5447769284444421
+maize,"extended:MLP residual (in-sample, 1993+)",2016,0.8010178112023544
+maize,extended:MLP residual (full window),2002,0.7082885498906775
+maize,extended:MLP residual (full window),2003,1.1811770671404105
+maize,extended:MLP residual (full window),2004,0.8468852630912036
+maize,extended:MLP residual (full window),2006,0.6524851298935443
+maize,extended:MLP residual (full window),2007,0.7525679684685063
+maize,extended:MLP residual (full window),2008,0.7405062086945928
+maize,extended:MLP residual (full window),2010,0.7715189140697981
+maize,extended:MLP residual (full window),2011,0.8064463123681704
+maize,extended:MLP residual (full window),2012,1.1466047356314313
+maize,extended:MLP residual (full window),2013,0.855079945050175
+maize,extended:MLP residual (full window),2014,0.80654650610849
+maize,extended:MLP residual (full window),2015,1.477134625772046
+maize,extended:MLP residual (full window),2016,0.7703037608689426
+maize,extended:Linear-NCA residual,2002,0.7295633707207683
+maize,extended:Linear-NCA residual,2003,1.154353317409017
+maize,extended:Linear-NCA residual,2004,0.8549582758524027
+maize,extended:Linear-NCA residual,2006,0.6597275743513288
+maize,extended:Linear-NCA residual,2007,0.746933273649399
+maize,extended:Linear-NCA residual,2008,0.7316212368996164
+maize,extended:Linear-NCA residual,2010,0.7787460740441686
+maize,extended:Linear-NCA residual,2011,0.8232251284658547
+maize,extended:Linear-NCA residual,2012,1.1857970719041908
+maize,extended:Linear-NCA residual,2013,0.8473581947877113
+maize,extended:Linear-NCA residual,2014,0.7718190936735845
+maize,extended:Linear-NCA residual,2015,1.4835111779982608
+maize,extended:Linear-NCA residual,2016,0.7589156860702403
+rice,global_mean,2002,3.4872259994698718
+rice,global_mean,2003,3.261308215794565
+rice,global_mean,2004,3.27341654653812
+rice,global_mean,2006,3.4318689317070374
+rice,global_mean,2007,3.3355340027601614
+rice,global_mean,2008,3.532146054615304
+rice,global_mean,2010,3.5781515038125957
+rice,global_mean,2011,3.646659515314224
+rice,global_mean,2012,3.674026886510867
+rice,global_mean,2013,3.4918596263050183
+rice,global_mean,2014,3.9393732055331814
+rice,global_mean,2015,3.7627440495969147
+rice,global_mean,2016,3.76664631829824
+rice,grid_climatology,2002,1.0771003314792982
+rice,grid_climatology,2003,1.5248536690682712
+rice,grid_climatology,2004,1.0118561289236694
+rice,grid_climatology,2006,1.126679518855211
+rice,grid_climatology,2007,1.0916809591742005
+rice,grid_climatology,2008,1.395935574649194
+rice,grid_climatology,2010,1.318009513257457
+rice,grid_climatology,2011,1.461995267394884
+rice,grid_climatology,2012,1.4846508909438059
+rice,grid_climatology,2013,1.396765415970997
+rice,grid_climatology,2014,1.7226995984421773
+rice,grid_climatology,2015,1.5644708193965358
+rice,grid_climatology,2016,1.6002056161851
+rice,previous_year,2002,0.643100516111114
+rice,previous_year,2003,1.4324365737029165
+rice,previous_year,2004,0.7882086998082282
+rice,previous_year,2006,0.7463423857334259
+rice,previous_year,2007,0.7674674344383905
+rice,previous_year,2008,0.9666684626793284
+rice,previous_year,2010,1.010847665079865
+rice,previous_year,2011,0.8430328201972834
+rice,previous_year,2012,0.8012865216557092
+rice,previous_year,2013,0.9396169806113298
+rice,previous_year,2014,1.1423394704946566
+rice,previous_year,2015,1.004724148355984
+rice,previous_year,2016,1.0437998657996155
+rice,rolling_mean_3,2002,0.6503951675539892
+rice,rolling_mean_3,2003,1.3659024413837253
+rice,rolling_mean_3,2004,0.67013014817757
+rice,rolling_mean_3,2006,0.7012620367686557
+rice,rolling_mean_3,2007,0.6258926818786414
+rice,rolling_mean_3,2008,0.9060662220245774
+rice,rolling_mean_3,2010,0.8927614157764586
+rice,rolling_mean_3,2011,0.7543850685869986
+rice,rolling_mean_3,2012,0.7217194674825774
+rice,rolling_mean_3,2013,0.8280995561077655
+rice,rolling_mean_3,2014,0.8968814370321432
+rice,rolling_mean_3,2015,0.8352938951807868
+rice,rolling_mean_3,2016,0.6214107014521383
+rice,rolling_mean_5,2002,0.6984278689298421
+rice,rolling_mean_5,2003,1.3602605177195366
+rice,rolling_mean_5,2004,0.6898956725543969
+rice,rolling_mean_5,2006,0.634074580793121
+rice,rolling_mean_5,2007,0.6328915399565909
+rice,rolling_mean_5,2008,0.9632365285760748
+rice,rolling_mean_5,2010,0.9033882417590127
+rice,rolling_mean_5,2011,0.8071923378989501
+rice,rolling_mean_5,2012,0.8200222355658346
+rice,rolling_mean_5,2013,0.7817359571654693
+rice,rolling_mean_5,2014,0.9097380619294378
+rice,rolling_mean_5,2015,0.8556900323611026
+rice,rolling_mean_5,2016,0.6332753028611297
+rice,exponential_smoothing,2002,0.6214359883728796
+rice,exponential_smoothing,2003,1.371665815330462
+rice,exponential_smoothing,2004,0.6710356074846437
+rice,exponential_smoothing,2006,0.6669349349198397
+rice,exponential_smoothing,2007,0.6289519029718103
+rice,exponential_smoothing,2008,0.9199100593208691
+rice,exponential_smoothing,2010,0.8985756365222825
+rice,exponential_smoothing,2011,0.7349991477170109
+rice,exponential_smoothing,2012,0.7103826347275338
+rice,exponential_smoothing,2013,0.781253974383736
+rice,exponential_smoothing,2014,0.9440057601596715
+rice,exponential_smoothing,2015,0.832547419749566
+rice,exponential_smoothing,2016,0.670293398613004
+rice,linear_trend,2002,0.6962958414524845
+rice,linear_trend,2003,1.3971650766766328
+rice,linear_trend,2004,0.7370155424900883
+rice,linear_trend,2006,0.6510468425549568
+rice,linear_trend,2007,0.6631445072619523
+rice,linear_trend,2008,0.8744164098575979
+rice,linear_trend,2010,0.8555167264349293
+rice,linear_trend,2011,0.8002959850530386
+rice,linear_trend,2012,0.8100753061251283
+rice,linear_trend,2013,0.850748058717743
+rice,linear_trend,2014,0.931059277018602
+rice,linear_trend,2015,0.929417865923726
+rice,linear_trend,2016,0.7368690753808231
+rice,linear_regression,2002,0.6489047409367268
+rice,linear_regression,2003,1.260594572580888
+rice,linear_regression,2004,0.692878239663559
+rice,linear_regression,2006,0.6855641050330925
+rice,linear_regression,2007,0.6666144702981971
+rice,linear_regression,2008,0.9088499561841147
+rice,linear_regression,2010,0.8206663519141552
+rice,linear_regression,2011,0.7210040231629731
+rice,linear_regression,2012,0.7207687824532267
+rice,linear_regression,2013,0.8767281719877213
+rice,linear_regression,2014,0.8980675313355596
+rice,linear_regression,2015,0.8523913642673542
+rice,linear_regression,2016,0.8832446780939388
+rice,ridge,2002,0.6486545263008948
+rice,ridge,2003,1.2610012723418649
+rice,ridge,2004,0.6924195500183964
+rice,ridge,2006,0.6849530321384181
+rice,ridge,2007,0.6659384159727084
+rice,ridge,2008,0.9081803095599905
+rice,ridge,2010,0.8208388215854736
+rice,ridge,2011,0.7209674825369808
+rice,ridge,2012,0.72088551126878
+rice,ridge,2013,0.8762189951480922
+rice,ridge,2014,0.8978858291044968
+rice,ridge,2015,0.8525838522426432
+rice,ridge,2016,0.8820316401617246
+rice,lasso,2002,0.6495720627586348
+rice,lasso,2003,1.276139993594037
+rice,lasso,2004,0.6931764151490587
+rice,lasso,2006,0.6755399779877137
+rice,lasso,2007,0.6552374789125153
+rice,lasso,2008,0.898995528187367
+rice,lasso,2010,0.8247627542930966
+rice,lasso,2011,0.7226086282434658
+rice,lasso,2012,0.7239186840733152
+rice,lasso,2013,0.8681813484728252
+rice,lasso,2014,0.8946475666729363
+rice,lasso,2015,0.8569170916007964
+rice,lasso,2016,0.8633426534544256
+rice,elastic_net,2002,0.6492672889005191
+rice,elastic_net,2003,1.2754375280409507
+rice,elastic_net,2004,0.6939184766136195
+rice,elastic_net,2006,0.6773355485200218
+rice,elastic_net,2007,0.6574024890176655
+rice,elastic_net,2008,0.9004461111780356
+rice,elastic_net,2010,0.8242562758557366
+rice,elastic_net,2011,0.7221492133596057
+rice,elastic_net,2012,0.7237450130142689
+rice,elastic_net,2013,0.8686721925422295
+rice,elastic_net,2014,0.8951212057569511
+rice,elastic_net,2015,0.8566050159086666
+rice,elastic_net,2016,0.8643269248485704
+rice,huber,2002,0.6242803508457119
+rice,huber,2003,1.2527516933115719
+rice,huber,2004,0.7303117795450115
+rice,huber,2006,0.6517956900320211
+rice,huber,2007,0.6490370727626844
+rice,huber,2008,0.906144690811705
+rice,huber,2010,0.8331577157461796
+rice,huber,2011,0.6955330426906761
+rice,huber,2012,0.7020030149130851
+rice,huber,2013,0.9397341439263122
+rice,huber,2014,0.8975793861093789
+rice,huber,2015,0.8511843529241269
+rice,huber,2016,1.0137121407867493
+rice,linear_svr,2002,0.6488910026960616
+rice,linear_svr,2003,1.2605568392945408
+rice,linear_svr,2004,0.6928555013196276
+rice,linear_svr,2006,0.6855249346429171
+rice,linear_svr,2007,0.666569167842211
+rice,linear_svr,2008,0.9088084414787994
+rice,linear_svr,2010,0.8206651304962983
+rice,linear_svr,2011,0.7210087717707261
+rice,linear_svr,2012,0.7207829531810633
+rice,linear_svr,2013,0.8767000845413716
+rice,linear_svr,2014,0.8980529140088065
+rice,linear_svr,2015,0.8524035847876272
+rice,linear_svr,2016,0.8831465278348191
+rice,approximate_knn,2002,0.615574695260271
+rice,approximate_knn,2003,1.2156884257665637
+rice,approximate_knn,2004,0.7381080155061468
+rice,approximate_knn,2006,0.6061922337454074
+rice,approximate_knn,2007,0.6424635996137111
+rice,approximate_knn,2008,0.8536348998454846
+rice,approximate_knn,2010,0.9265316955993741
+rice,approximate_knn,2011,0.8125479067820082
+rice,approximate_knn,2012,0.8606724741607652
+rice,approximate_knn,2013,0.8175956169810336
+rice,approximate_knn,2014,1.0162369859403622
+rice,approximate_knn,2015,1.0154487179810412
+rice,approximate_knn,2016,0.7660119357688215
+rice,decision_tree,2002,0.649517595178628
+rice,decision_tree,2003,1.2840289628369461
+rice,decision_tree,2004,0.7677842781658826
+rice,decision_tree,2006,0.6954742977985393
+rice,decision_tree,2007,0.6783402603381243
+rice,decision_tree,2008,0.9104976722364686
+rice,decision_tree,2010,1.0150437202683924
+rice,decision_tree,2011,0.8772886883099349
+rice,decision_tree,2012,0.9813887489160056
+rice,decision_tree,2013,0.9018244666656575
+rice,decision_tree,2014,1.1530506857409075
+rice,decision_tree,2015,1.142941315016851
+rice,decision_tree,2016,0.9202928711826532
+rice,random_forest,2002,0.5774109975538986
+rice,random_forest,2003,1.1657487052393376
+rice,random_forest,2004,0.7223139812131103
+rice,random_forest,2006,0.6238193622144326
+rice,random_forest,2007,0.6097682611973633
+rice,random_forest,2008,0.8376037738960139
+rice,random_forest,2010,0.9045316517247552
+rice,random_forest,2011,0.7793761830747036
+rice,random_forest,2012,0.8761740333827148
+rice,random_forest,2013,0.789535441113647
+rice,random_forest,2014,1.0221703583179327
+rice,random_forest,2015,1.0368025672301788
+rice,random_forest,2016,0.7752910911515022
+rice,extra_trees,2002,0.5830382563056571
+rice,extra_trees,2003,1.136915976024358
+rice,extra_trees,2004,0.7082084988881617
+rice,extra_trees,2006,0.6128266304100497
+rice,extra_trees,2007,0.6103948455738296
+rice,extra_trees,2008,0.8165247565376152
+rice,extra_trees,2010,0.9167230187584964
+rice,extra_trees,2011,0.776422670127835
+rice,extra_trees,2012,0.8543520310848822
+rice,extra_trees,2013,0.8355290345209827
+rice,extra_trees,2014,1.0099198336632669
+rice,extra_trees,2015,1.0038845190348913
+rice,extra_trees,2016,0.8664178034977017
+rice,hist_gradient_boosting,2002,0.5922442324326841
+rice,hist_gradient_boosting,2003,1.0918167762044741
+rice,hist_gradient_boosting,2004,0.7053178836204246
+rice,hist_gradient_boosting,2006,0.6145696788314847
+rice,hist_gradient_boosting,2007,0.6147407527791295
+rice,hist_gradient_boosting,2008,0.8282005382745959
+rice,hist_gradient_boosting,2010,0.9111683060380393
+rice,hist_gradient_boosting,2011,0.7653487118738344
+rice,hist_gradient_boosting,2012,0.8563631337377298
+rice,hist_gradient_boosting,2013,0.8121702406452306
+rice,hist_gradient_boosting,2014,0.9919162953914531
+rice,hist_gradient_boosting,2015,0.9950173855113165
+rice,hist_gradient_boosting,2016,0.7605971712682997
+rice,lightgbm,2002,0.6384369098406849
+rice,lightgbm,2003,1.1208641926780174
+rice,lightgbm,2004,0.7071706108117716
+rice,lightgbm,2006,0.6117380985882124
+rice,lightgbm,2007,0.6299572161467838
+rice,lightgbm,2008,0.8315664425407698
+rice,lightgbm,2010,0.9099489372969661
+rice,lightgbm,2011,0.7654126200297593
+rice,lightgbm,2012,0.8576580190643699
+rice,lightgbm,2013,0.8055728450731451
+rice,lightgbm,2014,0.987537692028727
+rice,lightgbm,2015,0.989265432502627
+rice,lightgbm,2016,0.7558008891362484
+rice,xgboost,2002,0.6419041271189927
+rice,xgboost,2003,1.1346822255603222
+rice,xgboost,2004,0.714813492682402
+rice,xgboost,2006,0.606016409133509
+rice,xgboost,2007,0.6240011820253352
+rice,xgboost,2008,0.8175714058755846
+rice,xgboost,2010,0.9044452001013065
+rice,xgboost,2011,0.7512945433588106
+rice,xgboost,2012,0.8371536488302534
+rice,xgboost,2013,0.8042009436489457
+rice,xgboost,2014,0.9726618426689642
+rice,xgboost,2015,0.9839527300615292
+rice,xgboost,2016,0.7234796995396462
+rice,mlp,2002,0.6302318730265885
+rice,mlp,2003,1.1559075772160499
+rice,mlp,2004,0.6807423681106777
+rice,mlp,2006,0.633771303726393
+rice,mlp,2007,0.6490637456018242
+rice,mlp,2008,0.8443691111983913
+rice,mlp,2010,0.8597832696359196
+rice,mlp,2011,0.72161358178377
+rice,mlp,2012,0.7251984768959188
+rice,mlp,2013,0.8019647915483175
+rice,mlp,2014,0.929890869941854
+rice,mlp,2015,0.87658646113898
+rice,mlp,2016,0.698767111827814
+rice,rnn,2002,0.6171070117641312
+rice,rnn,2003,1.1602447535851184
+rice,rnn,2004,0.6912197446922287
+rice,rnn,2006,0.6438366158477427
+rice,rnn,2007,0.642673525728381
+rice,rnn,2008,0.8586679036026391
+rice,rnn,2010,0.8646746614439892
+rice,rnn,2011,0.7213794040884702
+rice,rnn,2012,0.7251405412352432
+rice,rnn,2013,0.8239197975052259
+rice,rnn,2014,0.9534509290161214
+rice,rnn,2015,0.8700172277173113
+rice,rnn,2016,0.8082529140380801
+rice,lstm,2002,0.6200695702150502
+rice,lstm,2003,1.1637604098810799
+rice,lstm,2004,0.6872032435483285
+rice,lstm,2006,0.6272228879447315
+rice,lstm,2007,0.6403121389774123
+rice,lstm,2008,0.8526826348252468
+rice,lstm,2010,0.8649820351206647
+rice,lstm,2011,0.7092749057604453
+rice,lstm,2012,0.7173435716739152
+rice,lstm,2013,0.8572596339383828
+rice,lstm,2014,0.9151806267547572
+rice,lstm,2015,0.8680917974588909
+rice,lstm,2016,0.7183033767105816
+rice,tcn,2002,0.6258516784428381
+rice,tcn,2003,1.1745110834389896
+rice,tcn,2004,0.6911275029428289
+rice,tcn,2006,0.6598309242655942
+rice,tcn,2007,0.6386454100724053
+rice,tcn,2008,0.8657595620261099
+rice,tcn,2010,0.8616206354710546
+rice,tcn,2011,0.7164658934628236
+rice,tcn,2012,0.7118494683200994
+rice,tcn,2013,0.8451117097814111
+rice,tcn,2014,0.9052851010977727
+rice,tcn,2015,0.8686523080748109
+rice,tcn,2016,0.6438860418711215
+rice,gru,2002,0.6187254472398902
+rice,gru,2003,1.161485243309857
+rice,gru,2004,0.6860896043800869
+rice,gru,2006,0.6461722405031833
+rice,gru,2007,0.622612949768145
+rice,gru,2008,0.8877679807036201
+rice,gru,2010,0.8610179393244045
+rice,gru,2011,0.7117897170209491
+rice,gru,2012,0.7094473029620187
+rice,gru,2013,0.8806505923035819
+rice,gru,2014,0.9127548684999861
+rice,gru,2015,0.8622138632787593
+rice,gru,2016,0.7595018137627176
+rice,transformer,2002,0.6263110421836023
+rice,transformer,2003,1.176729997616887
+rice,transformer,2004,0.6951668030449513
+rice,transformer,2006,0.632191386670029
+rice,transformer,2007,0.6351206591764592
+rice,transformer,2008,0.8543974843842113
+rice,transformer,2010,0.8622380439069839
+rice,transformer,2011,0.7064867611595027
+rice,transformer,2012,0.7341387100922099
+rice,transformer,2013,0.8335931022530482
+rice,transformer,2014,0.9200732459836733
+rice,transformer,2015,0.897972596711646
+rice,transformer,2016,0.653678929193931
+rice,hgb_mlp_ensemble,2002,0.6050159744307144
+rice,hgb_mlp_ensemble,2003,1.1015231514725223
+rice,hgb_mlp_ensemble,2004,0.6841943179049947
+rice,hgb_mlp_ensemble,2006,0.6157783542659193
+rice,hgb_mlp_ensemble,2007,0.6243287206076088
+rice,hgb_mlp_ensemble,2008,0.822471597826799
+rice,hgb_mlp_ensemble,2010,0.878330987953861
+rice,hgb_mlp_ensemble,2011,0.7311964593320462
+rice,hgb_mlp_ensemble,2012,0.7783341894165081
+rice,hgb_mlp_ensemble,2013,0.7720662429897358
+rice,hgb_mlp_ensemble,2014,0.9445453096028995
+rice,hgb_mlp_ensemble,2015,0.9222422259763567
+rice,hgb_mlp_ensemble,2016,0.6963200958017884
+rice,world_model,2002,0.5632796519640638
+rice,world_model,2003,1.0312324461535278
+rice,world_model,2004,0.6681352693242005
+rice,world_model,2006,0.6227532223619351
+rice,world_model,2007,0.6440700055935192
+rice,world_model,2008,0.826574905095547
+rice,world_model,2010,0.8450186868061257
+rice,world_model,2011,0.6652629401801298
+rice,world_model,2012,0.6715250312037898
+rice,world_model,2013,0.8168375158610447
+rice,world_model,2014,0.8425683560251243
+rice,world_model,2015,0.9046029112741333
+rice,world_model,2016,0.6899532778579661
+rice,extended:MLP residual (full window),2002,0.57998778995446
+rice,extended:MLP residual (full window),2003,1.0750860585019355
+rice,extended:MLP residual (full window),2004,0.7053144758282153
+rice,extended:MLP residual (full window),2006,0.6103900602439524
+rice,extended:MLP residual (full window),2007,0.6216114380465685
+rice,extended:MLP residual (full window),2008,0.8170460618275417
+rice,extended:MLP residual (full window),2010,0.8559282342172221
+rice,extended:MLP residual (full window),2011,0.6999301840226205
+rice,extended:MLP residual (full window),2012,0.7033573903334429
+rice,extended:MLP residual (full window),2013,0.8331857619207748
+rice,extended:MLP residual (full window),2014,0.9080682561780871
+rice,extended:MLP residual (full window),2015,0.8744329594447043
+rice,extended:MLP residual (full window),2016,0.7199721923015964
+rice,extended:TabM residual (full window),2002,0.5850820827386987
+rice,extended:TabM residual (full window),2003,1.0779843937557778
+rice,extended:TabM residual (full window),2004,0.7014863422323124
+rice,extended:TabM residual (full window),2006,0.6046219054695429
+rice,extended:TabM residual (full window),2007,0.6188768086286887
+rice,extended:TabM residual (full window),2008,0.8090762015390285
+rice,extended:TabM residual (full window),2010,0.8568691578722819
+rice,extended:TabM residual (full window),2011,0.6971129046207487
+rice,extended:TabM residual (full window),2012,0.7022199567756259
+rice,extended:TabM residual (full window),2013,0.8336678217497909
+rice,extended:TabM residual (full window),2014,0.9043719571013572
+rice,extended:TabM residual (full window),2015,0.8753500264272384
+rice,extended:TabM residual (full window),2016,0.7191296106765767
+rice,extended:ModernNCA residual,2002,0.5940098831518426
+rice,extended:ModernNCA residual,2003,1.064513133780183
+rice,extended:ModernNCA residual,2004,0.7085154502676616
+rice,extended:ModernNCA residual,2006,0.6290559586382105
+rice,extended:ModernNCA residual,2007,0.6221641265751726
+rice,extended:ModernNCA residual,2008,0.7826325338728276
+rice,extended:ModernNCA residual,2010,0.8681429912313305
+rice,extended:ModernNCA residual,2011,0.6780460138912118
+rice,extended:ModernNCA residual,2012,0.7071594510844903
+rice,extended:ModernNCA residual,2013,0.8550343759754216
+rice,extended:ModernNCA residual,2014,0.9389781154752036
+rice,extended:ModernNCA residual,2015,0.8724410291732112
+rice,extended:ModernNCA residual,2016,0.7309113734476158
+rice,"extended:TabM residual (in-sample, 1993+)",2002,0.5799658482589355
+rice,"extended:TabM residual (in-sample, 1993+)",2003,1.0819992845938127
+rice,"extended:TabM residual (in-sample, 1993+)",2004,0.7085185885937599
+rice,"extended:TabM residual (in-sample, 1993+)",2006,0.6046140575051312
+rice,"extended:TabM residual (in-sample, 1993+)",2007,0.6188743100108489
+rice,"extended:TabM residual (in-sample, 1993+)",2008,0.8091220093976804
+rice,"extended:TabM residual (in-sample, 1993+)",2010,0.856750147966933
+rice,"extended:TabM residual (in-sample, 1993+)",2011,0.697051527054872
+rice,"extended:TabM residual (in-sample, 1993+)",2012,0.7022291153159974
+rice,"extended:TabM residual (in-sample, 1993+)",2013,0.8335771543666508
+rice,"extended:TabM residual (in-sample, 1993+)",2014,0.9043374793277255
+rice,"extended:TabM residual (in-sample, 1993+)",2015,0.8754244839341827
+rice,"extended:TabM residual (in-sample, 1993+)",2016,0.7189082346609134
+rice,"extended:Ridge residual, lambda=0.01",2002,0.588535894233305
+rice,"extended:Ridge residual, lambda=0.01",2003,1.0829564086522314
+rice,"extended:Ridge residual, lambda=0.01",2004,0.7017031526827285
+rice,"extended:Ridge residual, lambda=0.01",2006,0.6078150315810436
+rice,"extended:Ridge residual, lambda=0.01",2007,0.6189674897496192
+rice,"extended:Ridge residual, lambda=0.01",2008,0.810375283363943
+rice,"extended:Ridge residual, lambda=0.01",2010,0.863425772218351
+rice,"extended:Ridge residual, lambda=0.01",2011,0.7031386832698285
+rice,"extended:Ridge residual, lambda=0.01",2012,0.7057590768323311
+rice,"extended:Ridge residual, lambda=0.01",2013,0.8231594509011908
+rice,"extended:Ridge residual, lambda=0.01",2014,0.9247611281296518
+rice,"extended:Ridge residual, lambda=0.01",2015,0.8721865200827191
+rice,"extended:Ridge residual, lambda=0.01",2016,0.7223372646836798
+rice,"extended:Ridge residual, lambda=0.001",2002,0.5853944025054655
+rice,"extended:Ridge residual, lambda=0.001",2003,1.088676578779601
+rice,"extended:Ridge residual, lambda=0.001",2004,0.7042999035946728
+rice,"extended:Ridge residual, lambda=0.001",2006,0.6084068912303124
+rice,"extended:Ridge residual, lambda=0.001",2007,0.6180885367347656
+rice,"extended:Ridge residual, lambda=0.001",2008,0.8089315029073139
+rice,"extended:Ridge residual, lambda=0.001",2010,0.8629785482551138
+rice,"extended:Ridge residual, lambda=0.001",2011,0.7011476937322367
+rice,"extended:Ridge residual, lambda=0.001",2012,0.7032647311038002
+rice,"extended:Ridge residual, lambda=0.001",2013,0.8266281143673816
+rice,"extended:Ridge residual, lambda=0.001",2014,0.9254780196963015
+rice,"extended:Ridge residual, lambda=0.001",2015,0.8694322380406649
+rice,"extended:Ridge residual, lambda=0.001",2016,0.7285585800114257
+rice,"extended:Ridge residual, lambda=0.1",2002,0.5920826122947183
+rice,"extended:Ridge residual, lambda=0.1",2003,1.082692245013481
+rice,"extended:Ridge residual, lambda=0.1",2004,0.7060393999438034
+rice,"extended:Ridge residual, lambda=0.1",2006,0.6068849867466384
+rice,"extended:Ridge residual, lambda=0.1",2007,0.6202337198586485
+rice,"extended:Ridge residual, lambda=0.1",2008,0.8133942701325871
+rice,"extended:Ridge residual, lambda=0.1",2010,0.8623474697121452
+rice,"extended:Ridge residual, lambda=0.1",2011,0.7063439045857628
+rice,"extended:Ridge residual, lambda=0.1",2012,0.7092443979343942
+rice,"extended:Ridge residual, lambda=0.1",2013,0.8197650731583117
+rice,"extended:Ridge residual, lambda=0.1",2014,0.9240976413685223
+rice,"extended:Ridge residual, lambda=0.1",2015,0.8749759128792264
+rice,"extended:Ridge residual, lambda=0.1",2016,0.7186399100282965
+rice,"extended:MLP residual (in-sample, 1993+)",2002,0.5895838945663392
+rice,"extended:MLP residual (in-sample, 1993+)",2003,1.0805375409719866
+rice,"extended:MLP residual (in-sample, 1993+)",2004,0.7111247468801328
+rice,"extended:MLP residual (in-sample, 1993+)",2006,0.613625383507937
+rice,"extended:MLP residual (in-sample, 1993+)",2007,0.6050517622360017
+rice,"extended:MLP residual (in-sample, 1993+)",2008,0.7874843094512567
+rice,"extended:MLP residual (in-sample, 1993+)",2010,0.8564208570368455
+rice,"extended:MLP residual (in-sample, 1993+)",2011,0.700733830940695
+rice,"extended:MLP residual (in-sample, 1993+)",2012,0.7034453825050574
+rice,"extended:MLP residual (in-sample, 1993+)",2013,0.8332115104459823
+rice,"extended:MLP residual (in-sample, 1993+)",2014,0.9089126111833152
+rice,"extended:MLP residual (in-sample, 1993+)",2015,0.8743671367504605
+rice,"extended:MLP residual (in-sample, 1993+)",2016,0.7199403976598524
+rice,"extended:Ridge residual, lambda=1",2002,0.5934976757681133
+rice,"extended:Ridge residual, lambda=1",2003,1.0830222473235083
+rice,"extended:Ridge residual, lambda=1",2004,0.7072586594685641
+rice,"extended:Ridge residual, lambda=1",2006,0.606714576348632
+rice,"extended:Ridge residual, lambda=1",2007,0.6201699773123872
+rice,"extended:Ridge residual, lambda=1",2008,0.8135865685788632
+rice,"extended:Ridge residual, lambda=1",2010,0.8616869862531238
+rice,"extended:Ridge residual, lambda=1",2011,0.7073798134942376
+rice,"extended:Ridge residual, lambda=1",2012,0.7100972109940799
+rice,"extended:Ridge residual, lambda=1",2013,0.8197753686302747
+rice,"extended:Ridge residual, lambda=1",2014,0.9232562271109487
+rice,"extended:Ridge residual, lambda=1",2015,0.8751965763974151
+rice,"extended:Ridge residual, lambda=1",2016,0.7183096438794662
+rice,extended:Linear-NCA residual,2002,0.5892497765012932
+rice,extended:Linear-NCA residual,2003,1.0818166237610716
+rice,extended:Linear-NCA residual,2004,0.7128376449044751
+rice,extended:Linear-NCA residual,2006,0.6148748523745705
+rice,extended:Linear-NCA residual,2007,0.6160737657727539
+rice,extended:Linear-NCA residual,2008,0.804104100911654
+rice,extended:Linear-NCA residual,2010,0.875484823433467
+rice,extended:Linear-NCA residual,2011,0.6784434048021574
+rice,extended:Linear-NCA residual,2012,0.7018673903775047
+rice,extended:Linear-NCA residual,2013,0.8197379246131136
+rice,extended:Linear-NCA residual,2014,0.9064532703388594
+rice,extended:Linear-NCA residual,2015,0.8901600168132289
+rice,extended:Linear-NCA residual,2016,0.6996881483793617
+rice,"extended:Ridge residual, lambda=10",2002,0.5939232812879932
+rice,"extended:Ridge residual, lambda=10",2003,1.0829291077298189
+rice,"extended:Ridge residual, lambda=10",2004,0.7071977983850233
+rice,"extended:Ridge residual, lambda=10",2006,0.6069974742438176
+rice,"extended:Ridge residual, lambda=10",2007,0.6199281892803109
+rice,"extended:Ridge residual, lambda=10",2008,0.8131946682485085
+rice,"extended:Ridge residual, lambda=10",2010,0.8599297946238283
+rice,"extended:Ridge residual, lambda=10",2011,0.7056713720891254
+rice,"extended:Ridge residual, lambda=10",2012,0.7084659637483355
+rice,"extended:Ridge residual, lambda=10",2013,0.8229718050803239
+rice,"extended:Ridge residual, lambda=10",2014,0.919205135068699
+rice,"extended:Ridge residual, lambda=10",2015,0.8743426175403484
+rice,"extended:Ridge residual, lambda=10",2016,0.7183953984468662
+rice,extended:TabM residual (PLE),2002,0.5939930579294548
+rice,extended:TabM residual (PLE),2003,1.08316230333943
+rice,extended:TabM residual (PLE),2004,0.7076184841709169
+rice,extended:TabM residual (PLE),2006,0.6039209339818095
+rice,extended:TabM residual (PLE),2007,0.6189677424595528
+rice,extended:TabM residual (PLE),2008,0.8092324155489752
+rice,extended:TabM residual (PLE),2010,0.8571845161652502
+rice,extended:TabM residual (PLE),2011,0.6981323955243444
+rice,extended:TabM residual (PLE),2012,0.703151885357155
+rice,extended:TabM residual (PLE),2013,0.8315054448903196
+rice,extended:TabM residual (PLE),2014,0.9067590617271575
+rice,extended:TabM residual (PLE),2015,0.8748412543813191
+rice,extended:TabM residual (PLE),2016,0.7168741088487883
+rice,"extended:MLP residual (forward, 1993+)",2002,0.5937538426610026
+rice,"extended:MLP residual (forward, 1993+)",2003,1.0841762062418447
+rice,"extended:MLP residual (forward, 1993+)",2004,0.7109210752180158
+rice,"extended:MLP residual (forward, 1993+)",2006,0.6109072701083561
+rice,"extended:MLP residual (forward, 1993+)",2007,0.6220422187532715
+rice,"extended:MLP residual (forward, 1993+)",2008,0.8177264145669646
+rice,"extended:MLP residual (forward, 1993+)",2010,0.8564208570368455
+rice,"extended:MLP residual (forward, 1993+)",2011,0.700733830940695
+rice,"extended:MLP residual (forward, 1993+)",2012,0.7034453825050574
+rice,"extended:MLP residual (forward, 1993+)",2013,0.8332115104459823
+rice,"extended:MLP residual (forward, 1993+)",2014,0.9089126111833152
+rice,"extended:MLP residual (forward, 1993+)",2015,0.8743671367504605
+rice,"extended:MLP residual (forward, 1993+)",2016,0.7199403976598524
+rice,"extended:TabM residual (forward, 1993+)",2002,0.5950006477616221
+rice,"extended:TabM residual (forward, 1993+)",2003,1.0855363347251616
+rice,"extended:TabM residual (forward, 1993+)",2004,0.7105176305203503
+rice,"extended:TabM residual (forward, 1993+)",2006,0.6046140575051312
+rice,"extended:TabM residual (forward, 1993+)",2007,0.6188743100108489
+rice,"extended:TabM residual (forward, 1993+)",2008,0.8091220093976804
+rice,"extended:TabM residual (forward, 1993+)",2010,0.856750147966933
+rice,"extended:TabM residual (forward, 1993+)",2011,0.697051527054872
+rice,"extended:TabM residual (forward, 1993+)",2012,0.7022291153159974
+rice,"extended:TabM residual (forward, 1993+)",2013,0.8335771543666508
+rice,"extended:TabM residual (forward, 1993+)",2014,0.9043374793277255
+rice,"extended:TabM residual (forward, 1993+)",2015,0.8754244839341827
+rice,"extended:TabM residual (forward, 1993+)",2016,0.7189082346609134
+rice,extended:Lag-feature MLP,2002,0.629237866162451
+rice,extended:Lag-feature MLP,2003,1.1456010833516848
+rice,extended:Lag-feature MLP,2004,0.681156699591211
+rice,extended:Lag-feature MLP,2006,0.6305716489690468
+rice,extended:Lag-feature MLP,2007,0.6386003677427495
+rice,extended:Lag-feature MLP,2008,0.8455239391498831
+rice,extended:Lag-feature MLP,2010,0.8572113227181718
+rice,extended:Lag-feature MLP,2011,0.6983451854595817
+rice,extended:Lag-feature MLP,2012,0.70326413734676
+rice,extended:Lag-feature MLP,2013,0.8313647730029805
+rice,extended:Lag-feature MLP,2014,0.9071640968458896
+rice,extended:Lag-feature MLP,2015,0.8748243022361586
+rice,extended:Lag-feature MLP,2016,0.7172396300252111
+soybean,global_mean,2002,1.1485917449729697
+soybean,global_mean,2003,1.0575744475963935
+soybean,global_mean,2004,1.1403338984606755
+soybean,global_mean,2006,1.1383387951135224
+soybean,global_mean,2007,1.1256167963680506
+soybean,global_mean,2008,1.0951303451757002
+soybean,global_mean,2010,1.1762115637861537
+soybean,global_mean,2011,1.1345559913863101
+soybean,global_mean,2012,1.0513203413942014
+soybean,global_mean,2013,1.1301837593598827
+soybean,global_mean,2014,1.2247081196724907
+soybean,global_mean,2015,1.2891034415375846
+soybean,global_mean,2016,1.2890803557639843
+soybean,grid_climatology,2002,0.5022844976060893
+soybean,grid_climatology,2003,0.5496114665545598
+soybean,grid_climatology,2004,0.45239608823389715
+soybean,grid_climatology,2006,0.4002780089109042
+soybean,grid_climatology,2007,0.46813596950303604
+soybean,grid_climatology,2008,0.42802853427219856
+soybean,grid_climatology,2010,0.5353846477995173
+soybean,grid_climatology,2011,0.4886289862460211
+soybean,grid_climatology,2012,0.3949435709253316
+soybean,grid_climatology,2013,0.4671073347989752
+soybean,grid_climatology,2014,0.4867786327812374
+soybean,grid_climatology,2015,0.6646536519134869
+soybean,grid_climatology,2016,0.5904917686912118
+soybean,previous_year,2002,0.3686998076138957
+soybean,previous_year,2003,0.44871611103761583
+soybean,previous_year,2004,0.5488126781384296
+soybean,previous_year,2006,0.2460958377227186
+soybean,previous_year,2007,0.41714476143168033
+soybean,previous_year,2008,0.3613846250080193
+soybean,previous_year,2010,0.48908965721814746
+soybean,previous_year,2011,0.2584665435895584
+soybean,previous_year,2012,0.30516755469290624
+soybean,previous_year,2013,0.3293160684832058
+soybean,previous_year,2014,0.29230140075507777
+soybean,previous_year,2015,0.44675079359404607
+soybean,previous_year,2016,0.4698635908298712
+soybean,rolling_mean_3,2002,0.3016283873602471
+soybean,rolling_mean_3,2003,0.4185987572114935
+soybean,rolling_mean_3,2004,0.4438978881270547
+soybean,rolling_mean_3,2006,0.2654353167266373
+soybean,rolling_mean_3,2007,0.4199337046650689
+soybean,rolling_mean_3,2008,0.3063590304412691
+soybean,rolling_mean_3,2010,0.31233304734879286
+soybean,rolling_mean_3,2011,0.24037596360015964
+soybean,rolling_mean_3,2012,0.2984137839157823
+soybean,rolling_mean_3,2013,0.27748198418230713
+soybean,rolling_mean_3,2014,0.2890183147846839
+soybean,rolling_mean_3,2015,0.4640817884811344
+soybean,rolling_mean_3,2016,0.2890955294674433
+soybean,rolling_mean_5,2002,0.30325220380872914
+soybean,rolling_mean_5,2003,0.4124306965472722
+soybean,rolling_mean_5,2004,0.40151136759323147
+soybean,rolling_mean_5,2006,0.27015145833673804
+soybean,rolling_mean_5,2007,0.3677184494858959
+soybean,rolling_mean_5,2008,0.2959708171376311
+soybean,rolling_mean_5,2010,0.3352383057297703
+soybean,rolling_mean_5,2011,0.2608742197741662
+soybean,rolling_mean_5,2012,0.2734355441945379
+soybean,rolling_mean_5,2013,0.27628592462335894
+soybean,rolling_mean_5,2014,0.2646038851440535
+soybean,rolling_mean_5,2015,0.4537128035936533
+soybean,rolling_mean_5,2016,0.30969251807883763
+soybean,exponential_smoothing,2002,0.29893834245076023
+soybean,exponential_smoothing,2003,0.41539606610609986
+soybean,exponential_smoothing,2004,0.4140656628160913
+soybean,exponential_smoothing,2006,0.27225258535951086
+soybean,exponential_smoothing,2007,0.3548158771304705
+soybean,exponential_smoothing,2008,0.2935109172648419
+soybean,exponential_smoothing,2010,0.3517627557473012
+soybean,exponential_smoothing,2011,0.2674758591362109
+soybean,exponential_smoothing,2012,0.2590301344953457
+soybean,exponential_smoothing,2013,0.2831115440386507
+soybean,exponential_smoothing,2014,0.27871045264544086
+soybean,exponential_smoothing,2015,0.470798317744217
+soybean,exponential_smoothing,2016,0.3257876771366093
+soybean,linear_trend,2002,0.3155617327062422
+soybean,linear_trend,2003,0.4560352191952967
+soybean,linear_trend,2004,0.4080021702711993
+soybean,linear_trend,2006,0.3192590989270305
+soybean,linear_trend,2007,0.3802660902753325
+soybean,linear_trend,2008,0.33072329062026384
+soybean,linear_trend,2010,0.30038142071120544
+soybean,linear_trend,2011,0.22540900453468377
+soybean,linear_trend,2012,0.31223648244806335
+soybean,linear_trend,2013,0.2984979366746028
+soybean,linear_trend,2014,0.2782376865374886
+soybean,linear_trend,2015,0.4413629204914662
+soybean,linear_trend,2016,0.28677621571901457
+soybean,linear_regression,2002,0.28794205288688035
+soybean,linear_regression,2003,0.4360234066482542
+soybean,linear_regression,2004,0.4197503350362396
+soybean,linear_regression,2006,0.24349107766129605
+soybean,linear_regression,2007,0.39607755458718474
+soybean,linear_regression,2008,0.31332771258398023
+soybean,linear_regression,2010,0.3316894824701151
+soybean,linear_regression,2011,0.22093539810588686
+soybean,linear_regression,2012,0.2704605639798779
+soybean,linear_regression,2013,0.29244988214248396
+soybean,linear_regression,2014,0.2524801500957465
+soybean,linear_regression,2015,0.445722028940259
+soybean,linear_regression,2016,0.39527419518102624
+soybean,ridge,2002,0.2879436274280113
+soybean,ridge,2003,0.4364747329432694
+soybean,ridge,2004,0.4182444670170623
+soybean,ridge,2006,0.2436428587357513
+soybean,ridge,2007,0.39556086708753063
+soybean,ridge,2008,0.3131412025412788
+soybean,ridge,2010,0.3314342605206228
+soybean,ridge,2011,0.2207770677171588
+soybean,ridge,2012,0.2704176507372984
+soybean,ridge,2013,0.2922837815283047
+soybean,ridge,2014,0.2524622809547512
+soybean,ridge,2015,0.44560872900084325
+soybean,ridge,2016,0.3951333034661584
+soybean,lasso,2002,0.28892831692360094
+soybean,lasso,2003,0.45986139845068
+soybean,lasso,2004,0.4036191134898569
+soybean,lasso,2006,0.24509878821700376
+soybean,lasso,2007,0.38889147807659674
+soybean,lasso,2008,0.3107086464864802
+soybean,lasso,2010,0.32703153509925154
+soybean,lasso,2011,0.21847277556390834
+soybean,lasso,2012,0.2696815004019405
+soybean,lasso,2013,0.2910765757278107
+soybean,lasso,2014,0.2517202001657738
+soybean,lasso,2015,0.44369180892859134
+soybean,lasso,2016,0.39111962549967927
+soybean,elastic_net,2002,0.2887437751238023
+soybean,elastic_net,2003,0.45381401214035644
+soybean,elastic_net,2004,0.4038438840819915
+soybean,elastic_net,2006,0.24529156265269533
+soybean,elastic_net,2007,0.390111052872233
+soybean,elastic_net,2008,0.31128384790859176
+soybean,elastic_net,2010,0.32786379942472493
+soybean,elastic_net,2011,0.21892420626996054
+soybean,elastic_net,2012,0.26993318197731264
+soybean,elastic_net,2013,0.2909342408451268
+soybean,elastic_net,2014,0.2520680520721565
+soybean,elastic_net,2015,0.44412092131443637
+soybean,elastic_net,2016,0.3923419240805531
+soybean,huber,2002,0.2858745801378803
+soybean,huber,2003,0.4318740598493108
+soybean,huber,2004,0.4215249588891395
+soybean,huber,2006,0.24215692185441398
+soybean,huber,2007,0.39060409285599085
+soybean,huber,2008,0.3187973288539597
+soybean,huber,2010,0.32766588142722575
+soybean,huber,2011,0.2189441600880232
+soybean,huber,2012,0.2709891842255739
+soybean,huber,2013,0.30087199124343567
+soybean,huber,2014,0.2480978841475831
+soybean,huber,2015,0.44014964420566577
+soybean,huber,2016,0.408055528072245
+soybean,linear_svr,2002,0.28794198309915137
+soybean,linear_svr,2003,0.43604477345088427
+soybean,linear_svr,2004,0.41966854386769165
+soybean,linear_svr,2006,0.2435033402624008
+soybean,linear_svr,2007,0.3960145608687737
+soybean,linear_svr,2008,0.31330568203774445
+soybean,linear_svr,2010,0.33167686751271713
+soybean,linear_svr,2011,0.22092504873385965
+soybean,linear_svr,2012,0.2704569145837694
+soybean,linear_svr,2013,0.2924399926854509
+soybean,linear_svr,2014,0.252477836860025
+soybean,linear_svr,2015,0.4457138738124288
+soybean,linear_svr,2016,0.3952683919059904
+soybean,approximate_knn,2002,0.3283548191890478
+soybean,approximate_knn,2003,0.45336317220899025
+soybean,approximate_knn,2004,0.5786464055548239
+soybean,approximate_knn,2006,0.2877980186584597
+soybean,approximate_knn,2007,0.4435138263069252
+soybean,approximate_knn,2008,0.39365590774821324
+soybean,approximate_knn,2010,0.3944265182611673
+soybean,approximate_knn,2011,0.33643991458941336
+soybean,approximate_knn,2012,0.34061432910724626
+soybean,approximate_knn,2013,0.304092900851284
+soybean,approximate_knn,2014,0.38291968355835776
+soybean,approximate_knn,2015,0.46551780227895867
+soybean,approximate_knn,2016,0.3806271817981702
+soybean,decision_tree,2002,0.3903569818442121
+soybean,decision_tree,2003,0.5421525921752279
+soybean,decision_tree,2004,0.5920886526408412
+soybean,decision_tree,2006,0.2626812454594182
+soybean,decision_tree,2007,0.44588768224815717
+soybean,decision_tree,2008,0.3743023194437519
+soybean,decision_tree,2010,0.5084939517733394
+soybean,decision_tree,2011,0.44099051119630567
+soybean,decision_tree,2012,0.4416018040278326
+soybean,decision_tree,2013,0.4555084651128109
+soybean,decision_tree,2014,0.385125698037895
+soybean,decision_tree,2015,0.5675369335715857
+soybean,decision_tree,2016,0.4742714650115678
+soybean,random_forest,2002,0.35358790447273075
+soybean,random_forest,2003,0.47970369334267404
+soybean,random_forest,2004,0.5406830548376834
+soybean,random_forest,2006,0.22068956905223974
+soybean,random_forest,2007,0.40378834944810693
+soybean,random_forest,2008,0.32689157280646564
+soybean,random_forest,2010,0.4468836927373423
+soybean,random_forest,2011,0.35836856750708534
+soybean,random_forest,2012,0.37711226215022403
+soybean,random_forest,2013,0.365766482802325
+soybean,random_forest,2014,0.3586436833226797
+soybean,random_forest,2015,0.5016302972007098
+soybean,random_forest,2016,0.41504795368927655
+soybean,extra_trees,2002,0.35961176425638147
+soybean,extra_trees,2003,0.4648891972071196
+soybean,extra_trees,2004,0.56285643328174
+soybean,extra_trees,2006,0.2213947147562749
+soybean,extra_trees,2007,0.3962100918075596
+soybean,extra_trees,2008,0.3319896122295579
+soybean,extra_trees,2010,0.4390182119323741
+soybean,extra_trees,2011,0.36407118869575483
+soybean,extra_trees,2012,0.39094356494921134
+soybean,extra_trees,2013,0.3572533498965514
+soybean,extra_trees,2014,0.3461102615581434
+soybean,extra_trees,2015,0.4955020531797113
+soybean,extra_trees,2016,0.39162683293588185
+soybean,hist_gradient_boosting,2002,0.35004180083095254
+soybean,hist_gradient_boosting,2003,0.47535333249722206
+soybean,hist_gradient_boosting,2004,0.5400062982219325
+soybean,hist_gradient_boosting,2006,0.21191944464818865
+soybean,hist_gradient_boosting,2007,0.4007971052106192
+soybean,hist_gradient_boosting,2008,0.3260812058183379
+soybean,hist_gradient_boosting,2010,0.4116812883155932
+soybean,hist_gradient_boosting,2011,0.3332306271891534
+soybean,hist_gradient_boosting,2012,0.3596582869562908
+soybean,hist_gradient_boosting,2013,0.346771900947391
+soybean,hist_gradient_boosting,2014,0.32259604633890154
+soybean,hist_gradient_boosting,2015,0.4817645075798825
+soybean,hist_gradient_boosting,2016,0.3903718077131851
+soybean,lightgbm,2002,0.33151987392403715
+soybean,lightgbm,2003,0.4535154343246493
+soybean,lightgbm,2004,0.5133053840782779
+soybean,lightgbm,2006,0.29699568201169874
+soybean,lightgbm,2007,0.3766798638338691
+soybean,lightgbm,2008,0.3196297362982846
+soybean,lightgbm,2010,0.3128387106735282
+soybean,lightgbm,2011,0.2375017082616704
+soybean,lightgbm,2012,0.2827651684001547
+soybean,lightgbm,2013,0.26958004944536557
+soybean,lightgbm,2014,0.25515823719249126
+soybean,lightgbm,2015,0.4461877589725297
+soybean,lightgbm,2016,0.2949227640853069
+soybean,xgboost,2002,0.32552381451082013
+soybean,xgboost,2003,0.4472253290284826
+soybean,xgboost,2004,0.5074595353337331
+soybean,xgboost,2006,0.3148671117438772
+soybean,xgboost,2007,0.3775052897068025
+soybean,xgboost,2008,0.32678058012772865
+soybean,xgboost,2010,0.3094182755136608
+soybean,xgboost,2011,0.2400007680339496
+soybean,xgboost,2012,0.28380938896369273
+soybean,xgboost,2013,0.2675767368625509
+soybean,xgboost,2014,0.25090538276918994
+soybean,xgboost,2015,0.4420575050175636
+soybean,xgboost,2016,0.2957481522966809
+soybean,mlp,2002,0.3163176980026671
+soybean,mlp,2003,0.47301709218978283
+soybean,mlp,2004,0.39717529915015815
+soybean,mlp,2006,0.24855703281318872
+soybean,mlp,2007,0.38873243412807235
+soybean,mlp,2008,0.3072151951165515
+soybean,mlp,2010,0.3144456004589134
+soybean,mlp,2011,0.2245837725692227
+soybean,mlp,2012,0.26030275077445775
+soybean,mlp,2013,0.278082153720614
+soybean,mlp,2014,0.25253920845989003
+soybean,mlp,2015,0.4425245669402611
+soybean,mlp,2016,0.34521129050235383
+soybean,rnn,2002,0.2950335599284151
+soybean,rnn,2003,0.4686639640157097
+soybean,rnn,2004,0.3949812653995877
+soybean,rnn,2006,0.25613069112791415
+soybean,rnn,2007,0.38744322642353796
+soybean,rnn,2008,0.3090230984975974
+soybean,rnn,2010,0.32018712963914925
+soybean,rnn,2011,0.2149429330923253
+soybean,rnn,2012,0.2655972549974428
+soybean,rnn,2013,0.2931125469135695
+soybean,rnn,2014,0.2615949071161703
+soybean,rnn,2015,0.4494956914137535
+soybean,rnn,2016,0.43501977966394606
+soybean,lstm,2002,0.30620485443023976
+soybean,lstm,2003,0.46279575996425565
+soybean,lstm,2004,0.3933211594920264
+soybean,lstm,2006,0.2494208300715854
+soybean,lstm,2007,0.3836015216008938
+soybean,lstm,2008,0.3062792651708704
+soybean,lstm,2010,0.31911486310603737
+soybean,lstm,2011,0.2248930550475949
+soybean,lstm,2012,0.25852146372229096
+soybean,lstm,2013,0.29081943383088665
+soybean,lstm,2014,0.26805981333527
+soybean,lstm,2015,0.45970629451421513
+soybean,lstm,2016,0.3780821025434658
+soybean,tcn,2002,0.31142098939593466
+soybean,tcn,2003,0.4811516614977129
+soybean,tcn,2004,0.39951812792622615
+soybean,tcn,2006,0.26712916634176626
+soybean,tcn,2007,0.3967663551702447
+soybean,tcn,2008,0.33201381277355796
+soybean,tcn,2010,0.3328370745429284
+soybean,tcn,2011,0.23489982849984492
+soybean,tcn,2012,0.2908532991763154
+soybean,tcn,2013,0.30471733063299233
+soybean,tcn,2014,0.24744650707391058
+soybean,tcn,2015,0.42929494874050744
+soybean,tcn,2016,0.3025711892370898
+soybean,gru,2002,0.3095031400189819
+soybean,gru,2003,0.46103452688435
+soybean,gru,2004,0.40273692111324855
+soybean,gru,2006,0.25228425011386424
+soybean,gru,2007,0.3769461601106769
+soybean,gru,2008,0.3082869136043247
+soybean,gru,2010,0.31290669578817076
+soybean,gru,2011,0.21783310551026855
+soybean,gru,2012,0.2661020591491456
+soybean,gru,2013,0.2954868415645852
+soybean,gru,2014,0.2596365837856997
+soybean,gru,2015,0.4514179159297129
+soybean,gru,2016,0.4188459409242882
+soybean,transformer,2002,0.3272520504098157
+soybean,transformer,2003,0.4603593050135759
+soybean,transformer,2004,0.4168649875268272
+soybean,transformer,2006,0.25743902032336047
+soybean,transformer,2007,0.3748107386366642
+soybean,transformer,2008,0.2962303905632585
+soybean,transformer,2010,0.3296962547404708
+soybean,transformer,2011,0.24196968646244252
+soybean,transformer,2012,0.29092748813719915
+soybean,transformer,2013,0.30143892322743376
+soybean,transformer,2014,0.2722505266225023
+soybean,transformer,2015,0.4460882372830334
+soybean,transformer,2016,0.31855681446619155
+soybean,hgb_mlp_ensemble,2002,0.31810784427860966
+soybean,hgb_mlp_ensemble,2003,0.46078167861334673
+soybean,hgb_mlp_ensemble,2004,0.46003188031875414
+soybean,hgb_mlp_ensemble,2006,0.22249035303669276
+soybean,hgb_mlp_ensemble,2007,0.3892054495797833
+soybean,hgb_mlp_ensemble,2008,0.3033915488731345
+soybean,hgb_mlp_ensemble,2010,0.35335656647173697
+soybean,hgb_mlp_ensemble,2011,0.2521781450556559
+soybean,hgb_mlp_ensemble,2012,0.2848143058934407
+soybean,hgb_mlp_ensemble,2013,0.2889728437579188
+soybean,hgb_mlp_ensemble,2014,0.2624310895017575
+soybean,hgb_mlp_ensemble,2015,0.45075025083134285
+soybean,hgb_mlp_ensemble,2016,0.3285873060847335
+soybean,world_model,2002,0.2813213006607415
+soybean,world_model,2003,0.3929610350193848
+soybean,world_model,2004,0.4045943410921257
+soybean,world_model,2006,0.20870767589657624
+soybean,world_model,2007,0.28395031006432636
+soybean,world_model,2008,0.25315729841492746
+soybean,world_model,2010,0.28673179272926985
+soybean,world_model,2011,0.22669158005260387
+soybean,world_model,2012,0.25263952344656404
+soybean,world_model,2013,0.27206944810360295
+soybean,world_model,2014,0.24813485269214455
+soybean,world_model,2015,0.43907284166815297
+soybean,world_model,2016,0.28446996883099385
+soybean,extended:Lag-feature MLP,2002,0.2979321704029538
+soybean,extended:Lag-feature MLP,2003,0.4543204808673975
+soybean,extended:Lag-feature MLP,2004,0.3948810214598008
+soybean,extended:Lag-feature MLP,2006,0.2856949311327406
+soybean,extended:Lag-feature MLP,2007,0.35337762251805493
+soybean,extended:Lag-feature MLP,2008,0.29733813027915046
+soybean,extended:Lag-feature MLP,2010,0.2935272201702851
+soybean,extended:Lag-feature MLP,2011,0.22402838930269525
+soybean,extended:Lag-feature MLP,2012,0.27483157546582176
+soybean,extended:Lag-feature MLP,2013,0.2738887077171415
+soybean,extended:Lag-feature MLP,2014,0.2671336364387798
+soybean,extended:Lag-feature MLP,2015,0.43996925308511214
+soybean,extended:Lag-feature MLP,2016,0.3041144289804818
+soybean,extended:TabM residual (PLE),2002,0.2980213550558285
+soybean,extended:TabM residual (PLE),2003,0.45424452390814923
+soybean,extended:TabM residual (PLE),2004,0.3949931254896693
+soybean,extended:TabM residual (PLE),2006,0.22223837670058932
+soybean,extended:TabM residual (PLE),2007,0.30173258470857445
+soybean,extended:TabM residual (PLE),2008,0.27803757522418315
+soybean,extended:TabM residual (PLE),2010,0.2933384675631937
+soybean,extended:TabM residual (PLE),2011,0.2239147548991987
+soybean,extended:TabM residual (PLE),2012,0.27494028227552275
+soybean,extended:TabM residual (PLE),2013,0.2737925110017936
+soybean,extended:TabM residual (PLE),2014,0.26699328099833114
+soybean,extended:TabM residual (PLE),2015,0.43983111393904745
+soybean,extended:TabM residual (PLE),2016,0.3037615620583024
+soybean,extended:MLP residual (full window),2002,0.29820910868147676
+soybean,extended:MLP residual (full window),2003,0.4570833850428055
+soybean,extended:MLP residual (full window),2004,0.3925533749672588
+soybean,extended:MLP residual (full window),2006,0.25704868610206266
+soybean,extended:MLP residual (full window),2007,0.37163540761255287
+soybean,extended:MLP residual (full window),2008,0.29608385859143127
+soybean,extended:MLP residual (full window),2010,0.2959397184298685
+soybean,extended:MLP residual (full window),2011,0.22686648277165114
+soybean,extended:MLP residual (full window),2012,0.2744764152748373
+soybean,extended:MLP residual (full window),2013,0.2757113472944831
+soybean,extended:MLP residual (full window),2014,0.2673642573253848
+soybean,extended:MLP residual (full window),2015,0.44080174973880176
+soybean,extended:MLP residual (full window),2016,0.30568237009050997
+soybean,extended:TabM residual (full window),2002,0.28918121820232684
+soybean,extended:TabM residual (full window),2003,0.44425984589977996
+soybean,extended:TabM residual (full window),2004,0.4148614508914974
+soybean,extended:TabM residual (full window),2006,0.2589923057049638
+soybean,extended:TabM residual (full window),2007,0.3630996415293739
+soybean,extended:TabM residual (full window),2008,0.2893671231396837
+soybean,extended:TabM residual (full window),2010,0.29194863945115523
+soybean,extended:TabM residual (full window),2011,0.22231403998895746
+soybean,extended:TabM residual (full window),2012,0.2758069419343488
+soybean,extended:TabM residual (full window),2013,0.27391919701728623
+soybean,extended:TabM residual (full window),2014,0.266992430761435
+soybean,extended:TabM residual (full window),2015,0.4393852095969677
+soybean,extended:TabM residual (full window),2016,0.30208442830140125
+soybean,"extended:Ridge residual, lambda=0.001",2002,0.2986524827919994
+soybean,"extended:Ridge residual, lambda=0.001",2003,0.4528608309641601
+soybean,"extended:Ridge residual, lambda=0.001",2004,0.40057661378710524
+soybean,"extended:Ridge residual, lambda=0.001",2006,0.24554624796162156
+soybean,"extended:Ridge residual, lambda=0.001",2007,0.3908226235754793
+soybean,"extended:Ridge residual, lambda=0.001",2008,0.3074685549659705
+soybean,"extended:Ridge residual, lambda=0.001",2010,0.3268530314604677
+soybean,"extended:Ridge residual, lambda=0.001",2011,0.21653682160359727
+soybean,"extended:Ridge residual, lambda=0.001",2012,0.2681204705608693
+soybean,"extended:Ridge residual, lambda=0.001",2013,0.2886129927410285
+soybean,"extended:Ridge residual, lambda=0.001",2014,0.25452016521261045
+soybean,"extended:Ridge residual, lambda=0.001",2015,0.4451345584557086
+soybean,"extended:Ridge residual, lambda=0.001",2016,0.39630648885435155
+soybean,"extended:TabM residual (forward, 1993+)",2002,0.29824890765407797
+soybean,"extended:TabM residual (forward, 1993+)",2003,0.4577854149735161
+soybean,"extended:TabM residual (forward, 1993+)",2004,0.39671169948331003
+soybean,"extended:TabM residual (forward, 1993+)",2006,0.28680371766349305
+soybean,"extended:TabM residual (forward, 1993+)",2007,0.35555640590788373
+soybean,"extended:TabM residual (forward, 1993+)",2008,0.29848945357986023
+soybean,"extended:TabM residual (forward, 1993+)",2010,0.2919968804516432
+soybean,"extended:TabM residual (forward, 1993+)",2011,0.2223316313811252
+soybean,"extended:TabM residual (forward, 1993+)",2012,0.27584830877230826
+soybean,"extended:TabM residual (forward, 1993+)",2013,0.273981598011396
+soybean,"extended:TabM residual (forward, 1993+)",2014,0.26701963596526107
+soybean,"extended:TabM residual (forward, 1993+)",2015,0.4393760093692234
+soybean,"extended:TabM residual (forward, 1993+)",2016,0.30207467987500125
+soybean,"extended:TabM residual (in-sample, 1993+)",2002,0.29824890765407797
+soybean,"extended:TabM residual (in-sample, 1993+)",2003,0.4577854149735161
+soybean,"extended:TabM residual (in-sample, 1993+)",2004,0.39671169948331003
+soybean,"extended:TabM residual (in-sample, 1993+)",2006,0.25639178655697864
+soybean,"extended:TabM residual (in-sample, 1993+)",2007,0.3567605332093594
+soybean,"extended:TabM residual (in-sample, 1993+)",2008,0.28400619522127485
+soybean,"extended:TabM residual (in-sample, 1993+)",2010,0.2919968804516432
+soybean,"extended:TabM residual (in-sample, 1993+)",2011,0.2223316313811252
+soybean,"extended:TabM residual (in-sample, 1993+)",2012,0.27584830877230826
+soybean,"extended:TabM residual (in-sample, 1993+)",2013,0.273981598011396
+soybean,"extended:TabM residual (in-sample, 1993+)",2014,0.26701963596526107
+soybean,"extended:TabM residual (in-sample, 1993+)",2015,0.4393760093692234
+soybean,"extended:TabM residual (in-sample, 1993+)",2016,0.30207467987500125
+soybean,extended:ModernNCA residual,2002,0.29947870138074373
+soybean,extended:ModernNCA residual,2003,0.4575127642985856
+soybean,extended:ModernNCA residual,2004,0.4004098043473119
+soybean,extended:ModernNCA residual,2006,0.28557702770683235
+soybean,extended:ModernNCA residual,2007,0.35313789768275583
+soybean,extended:ModernNCA residual,2008,0.2973409338850778
+soybean,extended:ModernNCA residual,2010,0.2954027183589695
+soybean,extended:ModernNCA residual,2011,0.22567260458532387
+soybean,extended:ModernNCA residual,2012,0.2733843707831685
+soybean,extended:ModernNCA residual,2013,0.27404797167853145
+soybean,extended:ModernNCA residual,2014,0.26775324567516595
+soybean,extended:ModernNCA residual,2015,0.4410392112179675
+soybean,extended:ModernNCA residual,2016,0.3065708424998203
+soybean,"extended:Ridge residual, lambda=0.01",2002,0.2991214245835378
+soybean,"extended:Ridge residual, lambda=0.01",2003,0.4630321588810543
+soybean,"extended:Ridge residual, lambda=0.01",2004,0.3966824734301482
+soybean,"extended:Ridge residual, lambda=0.01",2006,0.25166030277671253
+soybean,"extended:Ridge residual, lambda=0.01",2007,0.3820395608735631
+soybean,"extended:Ridge residual, lambda=0.01",2008,0.3073557994945549
+soybean,"extended:Ridge residual, lambda=0.01",2010,0.31883033191833837
+soybean,"extended:Ridge residual, lambda=0.01",2011,0.2154863579327011
+soybean,"extended:Ridge residual, lambda=0.01",2012,0.2682985777596831
+soybean,"extended:Ridge residual, lambda=0.01",2013,0.28732448876725947
+soybean,"extended:Ridge residual, lambda=0.01",2014,0.25596381157068404
+soybean,"extended:Ridge residual, lambda=0.01",2015,0.44434908610966506
+soybean,"extended:Ridge residual, lambda=0.01",2016,0.38669146483097394
+soybean,"extended:Ridge residual, lambda=10",2002,0.2990792697924823
+soybean,"extended:Ridge residual, lambda=10",2003,0.46031317467802585
+soybean,"extended:Ridge residual, lambda=10",2004,0.40094642667726516
+soybean,"extended:Ridge residual, lambda=10",2006,0.28529516796243143
+soybean,"extended:Ridge residual, lambda=10",2007,0.3554690687591147
+soybean,"extended:Ridge residual, lambda=10",2008,0.30001373660745423
+soybean,"extended:Ridge residual, lambda=10",2010,0.29486108605124345
+soybean,"extended:Ridge residual, lambda=10",2011,0.2246905333694706
+soybean,"extended:Ridge residual, lambda=10",2012,0.2724185863729793
+soybean,"extended:Ridge residual, lambda=10",2013,0.27475363629132693
+soybean,"extended:Ridge residual, lambda=10",2014,0.2663186372098615
+soybean,"extended:Ridge residual, lambda=10",2015,0.4409542966544805
+soybean,"extended:Ridge residual, lambda=10",2016,0.3063480384201169
+soybean,"extended:Ridge residual, lambda=0.1",2002,0.2990069816093097
+soybean,"extended:Ridge residual, lambda=0.1",2003,0.4666553265325262
+soybean,"extended:Ridge residual, lambda=0.1",2004,0.39572251785296186
+soybean,"extended:Ridge residual, lambda=0.1",2006,0.26772924174272866
+soybean,"extended:Ridge residual, lambda=0.1",2007,0.37295444471566014
+soybean,"extended:Ridge residual, lambda=0.1",2008,0.31236909493498377
+soybean,"extended:Ridge residual, lambda=0.1",2010,0.3047674706492124
+soybean,"extended:Ridge residual, lambda=0.1",2011,0.21905117583501624
+soybean,"extended:Ridge residual, lambda=0.1",2012,0.2685157675049897
+soybean,"extended:Ridge residual, lambda=0.1",2013,0.2882232508429684
+soybean,"extended:Ridge residual, lambda=0.1",2014,0.25608330908477767
+soybean,"extended:Ridge residual, lambda=0.1",2015,0.4446773591428076
+soybean,"extended:Ridge residual, lambda=0.1",2016,0.35288504387130204
+soybean,"extended:Ridge residual, lambda=1",2002,0.29887064645326583
+soybean,"extended:Ridge residual, lambda=1",2003,0.46476606895921174
+soybean,"extended:Ridge residual, lambda=1",2004,0.40041369014874906
+soybean,"extended:Ridge residual, lambda=1",2006,0.28229225884231074
+soybean,"extended:Ridge residual, lambda=1",2007,0.3637579340666312
+soybean,"extended:Ridge residual, lambda=1",2008,0.30805309980811457
+soybean,"extended:Ridge residual, lambda=1",2010,0.2944986282027147
+soybean,"extended:Ridge residual, lambda=1",2011,0.22182443632514337
+soybean,"extended:Ridge residual, lambda=1",2012,0.27035833509137736
+soybean,"extended:Ridge residual, lambda=1",2013,0.27972984113188554
+soybean,"extended:Ridge residual, lambda=1",2014,0.25929189942961106
+soybean,"extended:Ridge residual, lambda=1",2015,0.44081985717534866
+soybean,"extended:Ridge residual, lambda=1",2016,0.31289502908459443
+soybean,extended:Linear-NCA residual,2002,0.29324801874411255
+soybean,extended:Linear-NCA residual,2003,0.4525114958080564
+soybean,extended:Linear-NCA residual,2004,0.4184158039084115
+soybean,extended:Linear-NCA residual,2006,0.23945132584596907
+soybean,extended:Linear-NCA residual,2007,0.3742345031019728
+soybean,extended:Linear-NCA residual,2008,0.29810281245451664
+soybean,extended:Linear-NCA residual,2010,0.30788335389702964
+soybean,extended:Linear-NCA residual,2011,0.23812307384139034
+soybean,extended:Linear-NCA residual,2012,0.27861540999856166
+soybean,extended:Linear-NCA residual,2013,0.2641431637790386
+soybean,extended:Linear-NCA residual,2014,0.2597483137092183
+soybean,extended:Linear-NCA residual,2015,0.4419589644191288
+soybean,extended:Linear-NCA residual,2016,0.30729428668239817
+soybean,"extended:MLP residual (forward, 1993+)",2002,0.29887062101358186
+soybean,"extended:MLP residual (forward, 1993+)",2003,0.4816227976979359
+soybean,"extended:MLP residual (forward, 1993+)",2004,0.4002311153978383
+soybean,"extended:MLP residual (forward, 1993+)",2006,0.2836163600449088
+soybean,"extended:MLP residual (forward, 1993+)",2007,0.35134387208176787
+soybean,"extended:MLP residual (forward, 1993+)",2008,0.29953705238189554
+soybean,"extended:MLP residual (forward, 1993+)",2010,0.29604294226864475
+soybean,"extended:MLP residual (forward, 1993+)",2011,0.22691317549610623
+soybean,"extended:MLP residual (forward, 1993+)",2012,0.27406503404609067
+soybean,"extended:MLP residual (forward, 1993+)",2013,0.27684531692107944
+soybean,"extended:MLP residual (forward, 1993+)",2014,0.26787123954637726
+soybean,"extended:MLP residual (forward, 1993+)",2015,0.44108076168478916
+soybean,"extended:MLP residual (forward, 1993+)",2016,0.30678137683026185
+soybean,"extended:MLP residual (in-sample, 1993+)",2002,0.29887062101358186
+soybean,"extended:MLP residual (in-sample, 1993+)",2003,0.4816227976979359
+soybean,"extended:MLP residual (in-sample, 1993+)",2004,0.4002311153978383
+soybean,"extended:MLP residual (in-sample, 1993+)",2006,0.2836163600449088
+soybean,"extended:MLP residual (in-sample, 1993+)",2007,0.35134387208176787
+soybean,"extended:MLP residual (in-sample, 1993+)",2008,0.29953705238189554
+soybean,"extended:MLP residual (in-sample, 1993+)",2010,0.29604294226864475
+soybean,"extended:MLP residual (in-sample, 1993+)",2011,0.22691317549610623
+soybean,"extended:MLP residual (in-sample, 1993+)",2012,0.27406503404609067
+soybean,"extended:MLP residual (in-sample, 1993+)",2013,0.27684531692107944
+soybean,"extended:MLP residual (in-sample, 1993+)",2014,0.26787123954637726
+soybean,"extended:MLP residual (in-sample, 1993+)",2015,0.44108076168478916
+soybean,"extended:MLP residual (in-sample, 1993+)",2016,0.30678137683026185
+wheat,global_mean,2002,2.8386880041095903
+wheat,global_mean,2003,3.031186011962779
+wheat,global_mean,2004,3.187674434648872
+wheat,global_mean,2006,3.238696181412154
+wheat,global_mean,2007,2.9717614378700214
+wheat,global_mean,2008,3.119298621076598
+wheat,global_mean,2010,3.109439653403357
+wheat,global_mean,2011,3.0219126051449363
+wheat,global_mean,2012,3.064280715916841
+wheat,global_mean,2013,3.139040597478833
+wheat,global_mean,2014,3.1624433485477006
+wheat,global_mean,2015,2.7461860578035235
+wheat,global_mean,2016,3.171029243408905
+wheat,grid_climatology,2002,0.8761599178443247
+wheat,grid_climatology,2003,1.4814087475155937
+wheat,grid_climatology,2004,0.9390732565134521
+wheat,grid_climatology,2006,0.8780993519464704
+wheat,grid_climatology,2007,0.7917992957504576
+wheat,grid_climatology,2008,0.955324557372701
+wheat,grid_climatology,2010,1.002015239774822
+wheat,grid_climatology,2011,0.8983523592819281
+wheat,grid_climatology,2012,0.8773510138942623
+wheat,grid_climatology,2013,1.048032658762242
+wheat,grid_climatology,2014,0.989863636099389
+wheat,grid_climatology,2015,1.3037154929667707
+wheat,grid_climatology,2016,1.1594967400357457
+wheat,previous_year,2002,0.9615047137079854
+wheat,previous_year,2003,1.6411548940134275
+wheat,previous_year,2004,0.8659938686973258
+wheat,previous_year,2006,0.9347360504195751
+wheat,previous_year,2007,0.8469846844251467
+wheat,previous_year,2008,0.9037470140546059
+wheat,previous_year,2010,0.9551250363675776
+wheat,previous_year,2011,0.7549550245646304
+wheat,previous_year,2012,0.6065579815676516
+wheat,previous_year,2013,0.6887053630571153
+wheat,previous_year,2014,0.5138253153141739
+wheat,previous_year,2015,1.543342193895551
+wheat,previous_year,2016,1.6399619896529865
+wheat,rolling_mean_3,2002,0.786329687479365
+wheat,rolling_mean_3,2003,1.4767350963461192
+wheat,rolling_mean_3,2004,0.8417170963193926
+wheat,rolling_mean_3,2006,0.7390368025501582
+wheat,rolling_mean_3,2007,0.6600349216964466
+wheat,rolling_mean_3,2008,0.7814077238584294
+wheat,rolling_mean_3,2010,0.8834846411231086
+wheat,rolling_mean_3,2011,0.5114574854060128
+wheat,rolling_mean_3,2012,0.5448472937505087
+wheat,rolling_mean_3,2013,0.6127683994168082
+wheat,rolling_mean_3,2014,0.52005865346909
+wheat,rolling_mean_3,2015,1.4390446359331746
+wheat,rolling_mean_3,2016,0.8248829239894465
+wheat,rolling_mean_5,2002,0.7679421812009468
+wheat,rolling_mean_5,2003,1.470255725019502
+wheat,rolling_mean_5,2004,0.8914810759047275
+wheat,rolling_mean_5,2006,0.679801186958165
+wheat,rolling_mean_5,2007,0.6072227156440781
+wheat,rolling_mean_5,2008,0.7919555924648897
+wheat,rolling_mean_5,2010,0.8560753266739345
+wheat,rolling_mean_5,2011,0.5415552936716274
+wheat,rolling_mean_5,2012,0.5315741574471605
+wheat,rolling_mean_5,2013,0.6154531720534931
+wheat,rolling_mean_5,2014,0.5567851067227946
+wheat,rolling_mean_5,2015,1.4348531096046495
+wheat,rolling_mean_5,2016,0.7544079344650964
+wheat,exponential_smoothing,2002,0.776435306480083
+wheat,exponential_smoothing,2003,1.4557996007993186
+wheat,exponential_smoothing,2004,0.8689172672889899
+wheat,exponential_smoothing,2006,0.7406818833127349
+wheat,exponential_smoothing,2007,0.6488992224116855
+wheat,exponential_smoothing,2008,0.7880107213162835
+wheat,exponential_smoothing,2010,0.8655069787773759
+wheat,exponential_smoothing,2011,0.5213342936120184
+wheat,exponential_smoothing,2012,0.5303941606463032
+wheat,exponential_smoothing,2013,0.6116516239989371
+wheat,exponential_smoothing,2014,0.5222416161266469
+wheat,exponential_smoothing,2015,1.403018469106962
+wheat,exponential_smoothing,2016,0.886600756866385
+wheat,linear_trend,2002,0.869969529830769
+wheat,linear_trend,2003,1.4555681365062623
+wheat,linear_trend,2004,0.8993457735410993
+wheat,linear_trend,2006,0.7396712217810003
+wheat,linear_trend,2007,0.6452878974583921
+wheat,linear_trend,2008,0.789215096970498
+wheat,linear_trend,2010,0.9254713886413862
+wheat,linear_trend,2011,0.6024815169123799
+wheat,linear_trend,2012,0.591387031411716
+wheat,linear_trend,2013,0.7036078319720069
+wheat,linear_trend,2014,0.6912719685747328
+wheat,linear_trend,2015,1.2908210718253503
+wheat,linear_trend,2016,0.8329069037425093
+wheat,linear_regression,2002,0.8643919202878023
+wheat,linear_regression,2003,1.8738137863384796
+wheat,linear_regression,2004,1.32003084448936
+wheat,linear_regression,2006,0.7731719503436965
+wheat,linear_regression,2007,0.6891934513464594
+wheat,linear_regression,2008,0.7826513624393999
+wheat,linear_regression,2010,0.835500561692647
+wheat,linear_regression,2011,0.5263653354779869
+wheat,linear_regression,2012,0.5568145767010176
+wheat,linear_regression,2013,0.6473959340607514
+wheat,linear_regression,2014,0.5892761059169048
+wheat,linear_regression,2015,1.33946990344347
+wheat,linear_regression,2016,0.8762186778118478
+wheat,ridge,2002,0.8637281066994043
+wheat,ridge,2003,1.8626752798595627
+wheat,ridge,2004,1.306603608239032
+wheat,ridge,2006,0.7727401303320439
+wheat,ridge,2007,0.6885716871787612
+wheat,ridge,2008,0.7821742778174386
+wheat,ridge,2010,0.8356261008671664
+wheat,ridge,2011,0.5260202972983654
+wheat,ridge,2012,0.5564470714911675
+wheat,ridge,2013,0.6469806569766319
+wheat,ridge,2014,0.5891434937373143
+wheat,ridge,2015,1.3393966728113451
+wheat,ridge,2016,0.8756590981925988
+wheat,lasso,2002,0.8567213082794288
+wheat,lasso,2003,1.59291299639918
+wheat,lasso,2004,0.9829692983121294
+wheat,lasso,2006,0.7615810715233021
+wheat,lasso,2007,0.6746690144150875
+wheat,lasso,2008,0.7753054684466862
+wheat,lasso,2010,0.8378131403044051
+wheat,lasso,2011,0.5200957358879308
+wheat,lasso,2012,0.5505596774986694
+wheat,lasso,2013,0.6413050120452455
+wheat,lasso,2014,0.5882586150226062
+wheat,lasso,2015,1.3376119242572522
+wheat,lasso,2016,0.8655128117397192
+wheat,elastic_net,2002,0.8568948849144784
+wheat,elastic_net,2003,1.6596402818972138
+wheat,elastic_net,2004,1.062107587124485
+wheat,elastic_net,2006,0.763776565598631
+wheat,elastic_net,2007,0.6766947277015741
+wheat,elastic_net,2008,0.7751405511570937
+wheat,elastic_net,2010,0.8383794417215866
+wheat,elastic_net,2011,0.5199291269160186
+wheat,elastic_net,2012,0.5502074565907626
+wheat,elastic_net,2013,0.6402957928835452
+wheat,elastic_net,2014,0.587941601185157
+wheat,elastic_net,2015,1.337699386553085
+wheat,elastic_net,2016,0.8649264634636245
+wheat,huber,2002,0.8449339906896386
+wheat,huber,2003,1.6001191414944327
+wheat,huber,2004,0.8575563859647316
+wheat,huber,2006,0.7300736599320344
+wheat,huber,2007,0.6506072362008052
+wheat,huber,2008,0.7961954263200268
+wheat,huber,2010,0.8477638322261678
+wheat,huber,2011,0.5352362790697713
+wheat,huber,2012,0.5512134194836908
+wheat,huber,2013,0.6762808646204906
+wheat,huber,2014,0.596001087698447
+wheat,huber,2015,1.3280309689330148
+wheat,huber,2016,0.9268442386475402
+wheat,linear_svr,2002,0.8643312610487208
+wheat,linear_svr,2003,1.8703007584150424
+wheat,linear_svr,2004,1.3158658379287982
+wheat,linear_svr,2006,0.7730933393326627
+wheat,linear_svr,2007,0.689080503433592
+wheat,linear_svr,2008,0.7825760975404815
+wheat,linear_svr,2010,0.8355114802061324
+wheat,linear_svr,2011,0.5263432794775145
+wheat,linear_svr,2012,0.5567895603418986
+wheat,linear_svr,2013,0.6473768183836437
+wheat,linear_svr,2014,0.5892842290898587
+wheat,linear_svr,2015,1.3394357621652024
+wheat,linear_svr,2016,0.8761760034322911
+wheat,approximate_knn,2002,0.7516650379411928
+wheat,approximate_knn,2003,1.4193909502067745
+wheat,approximate_knn,2004,1.0878840922712387
+wheat,approximate_knn,2006,0.7937200928019722
+wheat,approximate_knn,2007,0.7240813759919982
+wheat,approximate_knn,2008,0.74371821670684
+wheat,approximate_knn,2010,0.9801689747954269
+wheat,approximate_knn,2011,0.6232390961686985
+wheat,approximate_knn,2012,0.6242429385003883
+wheat,approximate_knn,2013,0.6806072712610307
+wheat,approximate_knn,2014,0.7103273374103447
+wheat,approximate_knn,2015,1.2951435138802925
+wheat,approximate_knn,2016,0.8660633390320992
+wheat,decision_tree,2002,0.9109863794980804
+wheat,decision_tree,2003,1.163425559852806
+wheat,decision_tree,2004,0.8818971916464784
+wheat,decision_tree,2006,0.9506770485369618
+wheat,decision_tree,2007,0.8063163538774782
+wheat,decision_tree,2008,0.9042067626534228
+wheat,decision_tree,2010,0.9656963116896209
+wheat,decision_tree,2011,0.711925595080325
+wheat,decision_tree,2012,0.7089182523042286
+wheat,decision_tree,2013,0.7764839202752082
+wheat,decision_tree,2014,0.8438904842022432
+wheat,decision_tree,2015,1.2578611042703343
+wheat,decision_tree,2016,1.0074117036025743
+wheat,random_forest,2002,0.8811923460010308
+wheat,random_forest,2003,1.1130656780425885
+wheat,random_forest,2004,0.8283082180452543
+wheat,random_forest,2006,0.8368141001911361
+wheat,random_forest,2007,0.6842373730385501
+wheat,random_forest,2008,0.7380279585739347
+wheat,random_forest,2010,0.9260793814313932
+wheat,random_forest,2011,0.5905617915922513
+wheat,random_forest,2012,0.5853943787059559
+wheat,random_forest,2013,0.6483718202878711
+wheat,random_forest,2014,0.7066007984700576
+wheat,random_forest,2015,1.2374564016982417
+wheat,random_forest,2016,0.857813631324157
+wheat,extra_trees,2002,0.8399491992231383
+wheat,extra_trees,2003,1.093486165936504
+wheat,extra_trees,2004,0.8974551453425826
+wheat,extra_trees,2006,0.7922174712475838
+wheat,extra_trees,2007,0.6309077004994931
+wheat,extra_trees,2008,0.7161580675658046
+wheat,extra_trees,2010,0.9038287428922409
+wheat,extra_trees,2011,0.5666335365567501
+wheat,extra_trees,2012,0.5696168368989095
+wheat,extra_trees,2013,0.6339626251697017
+wheat,extra_trees,2014,0.6808560777364945
+wheat,extra_trees,2015,1.2597733400557736
+wheat,extra_trees,2016,0.896738904466914
+wheat,hist_gradient_boosting,2002,0.8845430853809131
+wheat,hist_gradient_boosting,2003,1.20750503203235
+wheat,hist_gradient_boosting,2004,0.8068431410985127
+wheat,hist_gradient_boosting,2006,0.80868365673323
+wheat,hist_gradient_boosting,2007,0.6643413169619966
+wheat,hist_gradient_boosting,2008,0.7740765722332587
+wheat,hist_gradient_boosting,2010,0.900614728320166
+wheat,hist_gradient_boosting,2011,0.5762223290749547
+wheat,hist_gradient_boosting,2012,0.5981838022645021
+wheat,hist_gradient_boosting,2013,0.6493733422043345
+wheat,hist_gradient_boosting,2014,0.7109045403054481
+wheat,hist_gradient_boosting,2015,1.2157660465405524
+wheat,hist_gradient_boosting,2016,0.9044312128135386
+wheat,lightgbm,2002,0.846220276924809
+wheat,lightgbm,2003,1.3564006737352137
+wheat,lightgbm,2004,0.8702389763591192
+wheat,lightgbm,2006,0.7378156065548582
+wheat,lightgbm,2007,0.6472476495238135
+wheat,lightgbm,2008,0.7559255887123177
+wheat,lightgbm,2010,0.8686209889342144
+wheat,lightgbm,2011,0.5720864477176261
+wheat,lightgbm,2012,0.5718061400989135
+wheat,lightgbm,2013,0.67591170546474
+wheat,lightgbm,2014,0.682597154865259
+wheat,lightgbm,2015,1.2421804894454693
+wheat,lightgbm,2016,0.8436774495429494
+wheat,xgboost,2002,0.8514555795830426
+wheat,xgboost,2003,1.465582759653168
+wheat,xgboost,2004,0.8684208873412655
+wheat,xgboost,2006,0.7290232343245245
+wheat,xgboost,2007,0.6535781979024464
+wheat,xgboost,2008,0.7596727708739607
+wheat,xgboost,2010,0.8574869491246108
+wheat,xgboost,2011,0.5670016608075971
+wheat,xgboost,2012,0.5722698342997113
+wheat,xgboost,2013,0.6747253463535056
+wheat,xgboost,2014,0.684801124072456
+wheat,xgboost,2015,1.2438683543268574
+wheat,xgboost,2016,0.8370588525734127
+wheat,mlp,2002,0.8893331942185584
+wheat,mlp,2003,1.483810316197308
+wheat,mlp,2004,0.8156559438186212
+wheat,mlp,2006,0.6984295836535782
+wheat,mlp,2007,0.6770379055301269
+wheat,mlp,2008,0.7439519434744339
+wheat,mlp,2010,0.8486270426119171
+wheat,mlp,2011,0.5287714374382125
+wheat,mlp,2012,0.5620739089161672
+wheat,mlp,2013,0.6018223995721741
+wheat,mlp,2014,0.590742854371144
+wheat,mlp,2015,1.3716969736920268
+wheat,mlp,2016,0.772652900660281
+wheat,rnn,2002,0.9201569335138998
+wheat,rnn,2003,1.4801778632961775
+wheat,rnn,2004,0.8150774353741924
+wheat,rnn,2006,0.7414149145121892
+wheat,rnn,2007,0.6484473441266054
+wheat,rnn,2008,0.7754519235895216
+wheat,rnn,2010,0.8312446524091511
+wheat,rnn,2011,0.512869045119928
+wheat,rnn,2012,0.5503199500817533
+wheat,rnn,2013,0.6082425704954232
+wheat,rnn,2014,0.5914442365830577
+wheat,rnn,2015,1.3716989734439482
+wheat,rnn,2016,0.7534700853068268
+wheat,lstm,2002,0.8288766453385182
+wheat,lstm,2003,1.4948571181743553
+wheat,lstm,2004,0.8397331862185894
+wheat,lstm,2006,0.7532123441103372
+wheat,lstm,2007,0.6789329258670828
+wheat,lstm,2008,0.7668687621420054
+wheat,lstm,2010,0.82922404904201
+wheat,lstm,2011,0.5189036076654977
+wheat,lstm,2012,0.542273852463846
+wheat,lstm,2013,0.6193335020802653
+wheat,lstm,2014,0.5924176804834109
+wheat,lstm,2015,1.3464208483627553
+wheat,lstm,2016,0.7706303816846725
+wheat,tcn,2002,0.8984252264510327
+wheat,tcn,2003,1.457146117636535
+wheat,tcn,2004,0.8317071817901288
+wheat,tcn,2006,0.7344648734894499
+wheat,tcn,2007,0.6657889950396041
+wheat,tcn,2008,0.7623612165584004
+wheat,tcn,2010,0.8298427328361935
+wheat,tcn,2011,0.5241763745803489
+wheat,tcn,2012,0.5523703293731623
+wheat,tcn,2013,0.6406945051035019
+wheat,tcn,2014,0.6101046441970105
+wheat,tcn,2015,1.3183032464081204
+wheat,tcn,2016,0.7630298121984117
+wheat,gru,2002,0.8689262850440395
+wheat,gru,2003,1.472026343706237
+wheat,gru,2004,0.8425240158299799
+wheat,gru,2006,0.7595826299697523
+wheat,gru,2007,0.6492898216098183
+wheat,gru,2008,0.7772612787707295
+wheat,gru,2010,0.8819136525690736
+wheat,gru,2011,0.5466686803738193
+wheat,gru,2012,0.565101500499523
+wheat,gru,2013,0.6396108034733703
+wheat,gru,2014,0.6279415860349449
+wheat,gru,2015,1.3464583821890912
+wheat,gru,2016,0.8403170228529594
+wheat,transformer,2002,0.850027567009495
+wheat,transformer,2003,1.53511336951713
+wheat,transformer,2004,0.8923940563822785
+wheat,transformer,2006,0.7310482606133748
+wheat,transformer,2007,0.6627983038580935
+wheat,transformer,2008,0.7491187578733773
+wheat,transformer,2010,0.8407664076616554
+wheat,transformer,2011,0.5491511127234111
+wheat,transformer,2012,0.5673336065586888
+wheat,transformer,2013,0.6334819924046569
+wheat,transformer,2014,0.6130270865916861
+wheat,transformer,2015,1.3421418870171422
+wheat,transformer,2016,0.8412971468039764
+wheat,hgb_mlp_ensemble,2002,0.8764363818917383
+wheat,hgb_mlp_ensemble,2003,1.3138471063506272
+wheat,hgb_mlp_ensemble,2004,0.800555767792659
+wheat,hgb_mlp_ensemble,2006,0.7430686551775588
+wheat,hgb_mlp_ensemble,2007,0.6474059362371842
+wheat,hgb_mlp_ensemble,2008,0.7252156002107767
+wheat,hgb_mlp_ensemble,2010,0.8702231590936791
+wheat,hgb_mlp_ensemble,2011,0.5378320908625567
+wheat,hgb_mlp_ensemble,2012,0.5684718390315103
+wheat,hgb_mlp_ensemble,2013,0.6097369161225132
+wheat,hgb_mlp_ensemble,2014,0.639644435864131
+wheat,hgb_mlp_ensemble,2015,1.286748030486822
+wheat,hgb_mlp_ensemble,2016,0.8160202317805101
+wheat,world_model,2002,0.7351433293519726
+wheat,world_model,2003,1.2202783522001057
+wheat,world_model,2004,0.8031027513209003
+wheat,world_model,2006,0.6993189601355345
+wheat,world_model,2007,0.6494854184685546
+wheat,world_model,2008,0.6504556071664311
+wheat,world_model,2010,0.8220880058447424
+wheat,world_model,2011,0.505236909696141
+wheat,world_model,2012,0.5364836917037372
+wheat,world_model,2013,0.5850303238394909
+wheat,world_model,2014,0.5872808508841499
+wheat,world_model,2015,1.3738273693539325
+wheat,world_model,2016,0.7674382923706705
+wheat,extended:ModernNCA residual,2002,0.8833688264620358
+wheat,extended:ModernNCA residual,2003,1.1287652919603894
+wheat,extended:ModernNCA residual,2004,0.8001452021491432
+wheat,extended:ModernNCA residual,2006,0.7278718797273871
+wheat,extended:ModernNCA residual,2007,0.6357470171820155
+wheat,extended:ModernNCA residual,2008,0.753257744185147
+wheat,extended:ModernNCA residual,2010,0.8305253099287677
+wheat,extended:ModernNCA residual,2011,0.5195501675437045
+wheat,extended:ModernNCA residual,2012,0.5423299964822381
+wheat,extended:ModernNCA residual,2013,0.617565381985816
+wheat,extended:ModernNCA residual,2014,0.6020469212240572
+wheat,extended:ModernNCA residual,2015,1.3737015229537088
+wheat,extended:ModernNCA residual,2016,0.7599014323424826
+wheat,"extended:MLP residual (in-sample, 1993+)",2002,0.8870848998929192
+wheat,"extended:MLP residual (in-sample, 1993+)",2003,1.1350972943668005
+wheat,"extended:MLP residual (in-sample, 1993+)",2004,0.8222215849195019
+wheat,"extended:MLP residual (in-sample, 1993+)",2006,0.7314149014651699
+wheat,"extended:MLP residual (in-sample, 1993+)",2007,0.6323371956912246
+wheat,"extended:MLP residual (in-sample, 1993+)",2008,0.7611341607549224
+wheat,"extended:MLP residual (in-sample, 1993+)",2010,0.8350867103651805
+wheat,"extended:MLP residual (in-sample, 1993+)",2011,0.5257210268095585
+wheat,"extended:MLP residual (in-sample, 1993+)",2012,0.5441567623202447
+wheat,"extended:MLP residual (in-sample, 1993+)",2013,0.6245824278073615
+wheat,"extended:MLP residual (in-sample, 1993+)",2014,0.6029735142848264
+wheat,"extended:MLP residual (in-sample, 1993+)",2015,1.368016571158566
+wheat,"extended:MLP residual (in-sample, 1993+)",2016,0.7644357474138258
+wheat,"extended:TabM residual (forward, 1993+)",2002,0.8872922989001232
+wheat,"extended:TabM residual (forward, 1993+)",2003,1.143430064579581
+wheat,"extended:TabM residual (forward, 1993+)",2004,0.8165563845101543
+wheat,"extended:TabM residual (forward, 1993+)",2006,0.7085768259114965
+wheat,"extended:TabM residual (forward, 1993+)",2007,0.641592680357381
+wheat,"extended:TabM residual (forward, 1993+)",2008,0.7211193196750145
+wheat,"extended:TabM residual (forward, 1993+)",2010,0.8310298067888917
+wheat,"extended:TabM residual (forward, 1993+)",2011,0.5196388269485863
+wheat,"extended:TabM residual (forward, 1993+)",2012,0.5425520109085864
+wheat,"extended:TabM residual (forward, 1993+)",2013,0.6176837431379574
+wheat,"extended:TabM residual (forward, 1993+)",2014,0.6022295277978329
+wheat,"extended:TabM residual (forward, 1993+)",2015,1.373251917582477
+wheat,"extended:TabM residual (forward, 1993+)",2016,0.7604749811313449
+wheat,"extended:TabM residual (in-sample, 1993+)",2002,0.8872922989001232
+wheat,"extended:TabM residual (in-sample, 1993+)",2003,1.143430064579581
+wheat,"extended:TabM residual (in-sample, 1993+)",2004,0.8165563845101543
+wheat,"extended:TabM residual (in-sample, 1993+)",2006,0.694167004262086
+wheat,"extended:TabM residual (in-sample, 1993+)",2007,0.6509520567207385
+wheat,"extended:TabM residual (in-sample, 1993+)",2008,0.7174959977413979
+wheat,"extended:TabM residual (in-sample, 1993+)",2010,0.8310298067888917
+wheat,"extended:TabM residual (in-sample, 1993+)",2011,0.5196388269485863
+wheat,"extended:TabM residual (in-sample, 1993+)",2012,0.5425520109085864
+wheat,"extended:TabM residual (in-sample, 1993+)",2013,0.6176837431379574
+wheat,"extended:TabM residual (in-sample, 1993+)",2014,0.6022295277978329
+wheat,"extended:TabM residual (in-sample, 1993+)",2015,1.373251917582477
+wheat,"extended:TabM residual (in-sample, 1993+)",2016,0.7604749811313449
+wheat,extended:Linear-NCA residual,2002,0.8855595242320934
+wheat,extended:Linear-NCA residual,2003,1.1377799957181465
+wheat,extended:Linear-NCA residual,2004,0.8240185452544508
+wheat,extended:Linear-NCA residual,2006,0.6972202186766334
+wheat,extended:Linear-NCA residual,2007,0.6408570589766235
+wheat,extended:Linear-NCA residual,2008,0.7313750010050061
+wheat,extended:Linear-NCA residual,2010,0.8505191582368461
+wheat,extended:Linear-NCA residual,2011,0.5204381639040992
+wheat,extended:Linear-NCA residual,2012,0.5426671187391325
+wheat,extended:Linear-NCA residual,2013,0.5919319727567786
+wheat,extended:Linear-NCA residual,2014,0.5950900661882768
+wheat,extended:Linear-NCA residual,2015,1.3646772681318249
+wheat,extended:Linear-NCA residual,2016,0.755266646833081
+wheat,extended:TabM residual (full window),2002,0.8874439472397444
+wheat,extended:TabM residual (full window),2003,1.1431763895744622
+wheat,extended:TabM residual (full window),2004,0.81677954165243
+wheat,extended:TabM residual (full window),2006,0.6777894935273714
+wheat,extended:TabM residual (full window),2007,0.6447096528683578
+wheat,extended:TabM residual (full window),2008,0.728949147229722
+wheat,extended:TabM residual (full window),2010,0.8310672257946418
+wheat,extended:TabM residual (full window),2011,0.5194182830375702
+wheat,extended:TabM residual (full window),2012,0.5424608886823935
+wheat,extended:TabM residual (full window),2013,0.6174492199700736
+wheat,extended:TabM residual (full window),2014,0.6020800754576031
+wheat,extended:TabM residual (full window),2015,1.373420653215086
+wheat,extended:TabM residual (full window),2016,0.7604513548657758
+wheat,extended:TabM residual (PLE),2002,0.8839470553229332
+wheat,extended:TabM residual (PLE),2003,1.1434032626366013
+wheat,extended:TabM residual (PLE),2004,0.8209170324186184
+wheat,extended:TabM residual (PLE),2006,0.709731645985874
+wheat,extended:TabM residual (PLE),2007,0.6661347817788056
+wheat,extended:TabM residual (PLE),2008,0.7408517654714631
+wheat,extended:TabM residual (PLE),2010,0.8315484656485272
+wheat,extended:TabM residual (PLE),2011,0.5226906589217007
+wheat,extended:TabM residual (PLE),2012,0.5420033578158898
+wheat,extended:TabM residual (PLE),2013,0.6204868855486746
+wheat,extended:TabM residual (PLE),2014,0.6028784855486565
+wheat,extended:TabM residual (PLE),2015,1.3707369158946314
+wheat,extended:TabM residual (PLE),2016,0.7626115555466911
+wheat,"extended:Ridge residual, lambda=10",2002,0.8832977110177607
+wheat,"extended:Ridge residual, lambda=10",2003,1.1440151999337638
+wheat,"extended:Ridge residual, lambda=10",2004,0.8215095922429526
+wheat,"extended:Ridge residual, lambda=10",2006,0.7337539458101676
+wheat,"extended:Ridge residual, lambda=10",2007,0.633797031273188
+wheat,"extended:Ridge residual, lambda=10",2008,0.7544749806012067
+wheat,"extended:Ridge residual, lambda=10",2010,0.8302971328244445
+wheat,"extended:Ridge residual, lambda=10",2011,0.5193539901290112
+wheat,"extended:Ridge residual, lambda=10",2012,0.5420800022645351
+wheat,"extended:Ridge residual, lambda=10",2013,0.6157271298677157
+wheat,"extended:Ridge residual, lambda=10",2014,0.6002973319862922
+wheat,"extended:Ridge residual, lambda=10",2015,1.3791097103598042
+wheat,"extended:Ridge residual, lambda=10",2016,0.758491942595151
+wheat,"extended:Ridge residual, lambda=1",2002,0.8833753165215393
+wheat,"extended:Ridge residual, lambda=1",2003,1.1443723121060894
+wheat,"extended:Ridge residual, lambda=1",2004,0.8218629181826049
+wheat,"extended:Ridge residual, lambda=1",2006,0.7347274836312175
+wheat,"extended:Ridge residual, lambda=1",2007,0.638240773343768
+wheat,"extended:Ridge residual, lambda=1",2008,0.7498370709495662
+wheat,"extended:Ridge residual, lambda=1",2010,0.828649066378649
+wheat,"extended:Ridge residual, lambda=1",2011,0.519685243570504
+wheat,"extended:Ridge residual, lambda=1",2012,0.5416341299359585
+wheat,"extended:Ridge residual, lambda=1",2013,0.6138410925235823
+wheat,"extended:Ridge residual, lambda=1",2014,0.5977007410208001
+wheat,"extended:Ridge residual, lambda=1",2015,1.386293925258376
+wheat,"extended:Ridge residual, lambda=1",2016,0.7570541635997451
+wheat,"extended:Ridge residual, lambda=0.1",2002,0.8834554260224307
+wheat,"extended:Ridge residual, lambda=0.1",2003,1.145350220954123
+wheat,"extended:Ridge residual, lambda=0.1",2004,0.8229535750827661
+wheat,"extended:Ridge residual, lambda=0.1",2006,0.7361354297544423
+wheat,"extended:Ridge residual, lambda=0.1",2007,0.6426784197353159
+wheat,"extended:Ridge residual, lambda=0.1",2008,0.7477132138010504
+wheat,"extended:Ridge residual, lambda=0.1",2010,0.8257225509502922
+wheat,"extended:Ridge residual, lambda=0.1",2011,0.5199560818642649
+wheat,"extended:Ridge residual, lambda=0.1",2012,0.5407368921641938
+wheat,"extended:Ridge residual, lambda=0.1",2013,0.6123614387155533
+wheat,"extended:Ridge residual, lambda=0.1",2014,0.5947594713753865
+wheat,"extended:Ridge residual, lambda=0.1",2015,1.3901151317541296
+wheat,"extended:Ridge residual, lambda=0.1",2016,0.7574415228842316
+wheat,extended:MLP residual (full window),2002,0.875768601526143
+wheat,extended:MLP residual (full window),2003,1.145584474733761
+wheat,extended:MLP residual (full window),2004,0.8371912242129729
+wheat,extended:MLP residual (full window),2006,0.723713533829308
+wheat,extended:MLP residual (full window),2007,0.6476836218516056
+wheat,extended:MLP residual (full window),2008,0.7351474654348232
+wheat,extended:MLP residual (full window),2010,0.8347787554413484
+wheat,extended:MLP residual (full window),2011,0.5259254724928171
+wheat,extended:MLP residual (full window),2012,0.54332073749762
+wheat,extended:MLP residual (full window),2013,0.6234882940921485
+wheat,extended:MLP residual (full window),2014,0.6018645117748629
+wheat,extended:MLP residual (full window),2015,1.3681207269883946
+wheat,extended:MLP residual (full window),2016,0.7651552558808471
+wheat,"extended:Ridge residual, lambda=0.01",2002,0.883740038167882
+wheat,"extended:Ridge residual, lambda=0.01",2003,1.1492063498325187
+wheat,"extended:Ridge residual, lambda=0.01",2004,0.826524601325651
+wheat,"extended:Ridge residual, lambda=0.01",2006,0.7436284488838589
+wheat,"extended:Ridge residual, lambda=0.01",2007,0.6470468708626824
+wheat,"extended:Ridge residual, lambda=0.01",2008,0.7476715305193752
+wheat,"extended:Ridge residual, lambda=0.01",2010,0.82443705512404
+wheat,"extended:Ridge residual, lambda=0.01",2011,0.5191540095137873
+wheat,"extended:Ridge residual, lambda=0.01",2012,0.5400173904623146
+wheat,"extended:Ridge residual, lambda=0.01",2013,0.6102952217663371
+wheat,"extended:Ridge residual, lambda=0.01",2014,0.5902578268416918
+wheat,"extended:Ridge residual, lambda=0.01",2015,1.3938932221977611
+wheat,"extended:Ridge residual, lambda=0.01",2016,0.7609053715259663
+wheat,"extended:MLP residual (forward, 1993+)",2002,0.8793789525295665
+wheat,"extended:MLP residual (forward, 1993+)",2003,1.1609192410175222
+wheat,"extended:MLP residual (forward, 1993+)",2004,0.8259689825687103
+wheat,"extended:MLP residual (forward, 1993+)",2006,0.7314149014651699
+wheat,"extended:MLP residual (forward, 1993+)",2007,0.6323371956912246
+wheat,"extended:MLP residual (forward, 1993+)",2008,0.7611341607549224
+wheat,"extended:MLP residual (forward, 1993+)",2010,0.8350867103651805
+wheat,"extended:MLP residual (forward, 1993+)",2011,0.5257210268095585
+wheat,"extended:MLP residual (forward, 1993+)",2012,0.5441567623202447
+wheat,"extended:MLP residual (forward, 1993+)",2013,0.6245824278073615
+wheat,"extended:MLP residual (forward, 1993+)",2014,0.6029735142848264
+wheat,"extended:MLP residual (forward, 1993+)",2015,1.368016571158566
+wheat,"extended:MLP residual (forward, 1993+)",2016,0.7644357474138258
+wheat,"extended:Ridge residual, lambda=0.001",2002,0.8842727171534296
+wheat,"extended:Ridge residual, lambda=0.001",2003,1.1603220404196508
+wheat,"extended:Ridge residual, lambda=0.001",2004,0.83763341734611
+wheat,"extended:Ridge residual, lambda=0.001",2006,0.7512378680918395
+wheat,"extended:Ridge residual, lambda=0.001",2007,0.6572196221329887
+wheat,"extended:Ridge residual, lambda=0.001",2008,0.752213924431469
+wheat,"extended:Ridge residual, lambda=0.001",2010,0.8230759581729005
+wheat,"extended:Ridge residual, lambda=0.001",2011,0.520073321123802
+wheat,"extended:Ridge residual, lambda=0.001",2012,0.5413061299215834
+wheat,"extended:Ridge residual, lambda=0.001",2013,0.6114761598296049
+wheat,"extended:Ridge residual, lambda=0.001",2014,0.5890036640595483
+wheat,"extended:Ridge residual, lambda=0.001",2015,1.3950592613709611
+wheat,"extended:Ridge residual, lambda=0.001",2016,0.7642018487957691
+wheat,extended:Lag-feature MLP,2002,0.8989629297598511
+wheat,extended:Lag-feature MLP,2003,1.4462725752914953
+wheat,extended:Lag-feature MLP,2004,0.8150980509170336
+wheat,extended:Lag-feature MLP,2006,0.7016278143250726
+wheat,extended:Lag-feature MLP,2007,0.6735887323054713
+wheat,extended:Lag-feature MLP,2008,0.7607078837671211
+wheat,extended:Lag-feature MLP,2010,0.8317016182694703
+wheat,extended:Lag-feature MLP,2011,0.5230427452323849
+wheat,extended:Lag-feature MLP,2012,0.542094992805335
+wheat,extended:Lag-feature MLP,2013,0.620886174989008
+wheat,extended:Lag-feature MLP,2014,0.6028860205787184
+wheat,extended:Lag-feature MLP,2015,1.3700196193554002
+wheat,extended:Lag-feature MLP,2016,0.7630220092729655

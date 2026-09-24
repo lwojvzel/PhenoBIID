@@ -1,0 +1,255 @@
+{
+  "archived_replay_passed": true,
+  "cpu_fp32_finite": true,
+  "cases": [
+    {
+      "crop": "maize",
+      "ratio": 0.1,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.006711157825311176,
+      "cpu_fp32_state_max_difference": {
+        "gpp": 0.010419845581054688
+      },
+      "cpu_fp32_anchor_max_difference": 0.013422315650622352
+    },
+    {
+      "crop": "maize",
+      "ratio": 0.3,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.006711157825311176,
+      "cpu_fp32_state_max_difference": {
+        "gpp": 0.01799297332763672
+      },
+      "cpu_fp32_anchor_max_difference": 0.013422315650622352
+    },
+    {
+      "crop": "maize",
+      "ratio": 0.5,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.007346306211391873,
+      "cpu_fp32_state_max_difference": {
+        "gpp": 0.018529415130615234
+      },
+      "cpu_fp32_anchor_max_difference": 0.013422315650622352
+    },
+    {
+      "crop": "maize",
+      "ratio": 0.7,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.014714364871577068,
+      "cpu_fp32_state_max_difference": {
+        "gpp": 0.022670984268188477
+      },
+      "cpu_fp32_anchor_max_difference": 0.013422315650622352
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.1,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.008513483289798174,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0006470680236816406
+      },
+      "cpu_fp32_anchor_max_difference": 0.008513483289798174
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.3,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.008513483289798174,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0005116462707519531
+      },
+      "cpu_fp32_anchor_max_difference": 0.008513483289798174
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.5,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.008513483289798174,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0006653070449829102
+      },
+      "cpu_fp32_anchor_max_difference": 0.008513483289798174
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.7,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.01722505781686401,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0005804300308227539
+      },
+      "cpu_fp32_anchor_max_difference": 0.008513483289798174
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.1,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.001906988806762211,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.00109061598777771
+      },
+      "cpu_fp32_anchor_max_difference": 0.001906988806762211
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.3,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.002215730844028596,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0010318756103515625
+      },
+      "cpu_fp32_anchor_max_difference": 0.001906988806762211
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.5,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.001906988806762211,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0010318756103515625
+      },
+      "cpu_fp32_anchor_max_difference": 0.001906988806762211
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.7,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        501
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.005222222559313705,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0009591281414031982
+      },
+      "cpu_fp32_anchor_max_difference": 0.001906988806762211
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.1,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        537
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.013168928748502395,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.003887563943862915,
+        "gpp": 0.02186107635498047
+      },
+      "cpu_fp32_anchor_max_difference": 0.006208471691035555
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.3,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        537
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.006208471691035555,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0036030709743499756,
+        "gpp": 0.025669574737548828
+      },
+      "cpu_fp32_anchor_max_difference": 0.006208471691035555
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.5,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        537
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.010236008039534061,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.00308874249458313,
+        "gpp": 0.02155470848083496
+      },
+      "cpu_fp32_anchor_max_difference": 0.006208471691035555
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.7,
+      "samples": 24,
+      "feature_shape": [
+        24,
+        537
+      ],
+      "archived_replay_max_error": 0.0,
+      "cpu_fp32_yield_max_difference": 0.006208471691035555,
+      "cpu_fp32_state_max_difference": {
+        "ndvi": 0.0035230517387390137,
+        "gpp": 0.02030801773071289
+      },
+      "cpu_fp32_anchor_max_difference": 0.006208471691035555
+    }
+  ],
+  "scope": "Real-data small-sample frozen inference, not retraining or thirteen-year reproduction",
+  "precision": "Archived CUDA BF16 versus recomputed CPU FP32; differences are reported, not substituted",
+  "torch_version": "2.5.1+cu124",
+  "numpy_version": "2.0.2",
+  "lightgbm_version": "4.6.0"
+}

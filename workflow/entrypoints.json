@@ -1,0 +1,103 @@
+{
+  "raw_products_and_alignment": [
+    "convert_gdhy_to_npy_lon180.py",
+    "download_era5land_monthly.py",
+    "aggregate_era5land_monthly_to_gdhy_npy.py",
+    "split_era5land_0p5deg_npy_by_variable.py",
+    "build_crop_growing_season_dataset.py",
+    "process_glass_lai_avhrr_to_growing_season.py",
+    "prepare_pku_ndvi.py",
+    "prepare_reclue_monthly_gpp.py"
+  ],
+  "global_inputs_and_training": [
+    "run_multimodal_baselines.py",
+    "run_biid_world_model.py",
+    "inseason_13year_data.py",
+    "run_inseason_13year_history.py",
+    "run_inseason_13year_direct.py",
+    "run_inseason_direct_extension.py",
+    "run_inseason_forest_cpu.py",
+    "run_inseason_direct_seed.py",
+    "run_forecast_bridge_state.py",
+    "run_inseason_pipeline_seed_history.py",
+    "run_inseason_pipeline_seed_terminal.py",
+    "run_inseason_pipeline_seed_inference.py"
+  ],
+  "retained_strong_history_recipe_sources": [
+    "run_neural_process_readout.py",
+    "run_numeric_embedding_readout.py",
+    "run_neighbor_state_readout.py",
+    "run_forward_anchor_readout.py",
+    "run_task_aligned_world.py",
+    "run_linear_state_yield_queue.py"
+  ],
+  "controls_and_diagnostics": [
+    "run_inseason_state_controls.py",
+    "run_inseason_no_weather_state.py",
+    "run_inseason_no_weather_eval.py",
+    "run_inseason_modality_controls.py",
+    "run_inseason_signal_values.py",
+    "run_inseason_terminal_paths.py",
+    "run_inseason_calendar_coordinates.py",
+    "run_inseason_nested_history.py",
+    "run_inseason_nested_states.py",
+    "run_inseason_nested_readout.py"
+  ],
+  "regional_inputs_and_training": [
+    "fetch_cybench_revision.py",
+    "fetch_cybench_geometry.py",
+    "prepare_cybench_regional_monthly.py",
+    "prepare_cybench_seasonal_inputs.py",
+    "prepare_cybench_label_protocol.py",
+    "run_cybench_inseason_history.py",
+    "run_cybench_inseason_state.py",
+    "run_cybench_inseason_readout.py",
+    "run_cybench_inseason_inference.py"
+  ],
+  "evaluation_and_scientific_figures": [
+    "verify_inseason_pipeline_outputs.py",
+    "verify_inseason_direct_seed_outputs.py",
+    "verify_inseason_history_seeds.py",
+    "verify_inseason_terminal_seeds.py",
+    "verify_cybench_inseason_history.py",
+    "verify_cybench_inseason_states.py",
+    "verify_cybench_inseason_readouts.py",
+    "verify_cybench_inseason_inference.py",
+    "summarize_inseason_13year.py",
+    "summarize_inseason_13year_direct.py",
+    "summarize_inseason_six_direct.py",
+    "summarize_inseason_pipeline_seeds.py",
+    "summarize_inseason_paired_seeds.py",
+    "summarize_cybench_inseason.py",
+    "summarize_inseason_state_controls.py",
+    "summarize_inseason_no_weather.py",
+    "summarize_inseason_modality_controls.py",
+    "summarize_inseason_signal_values.py",
+    "summarize_inseason_mechanism_completeness.py",
+    "summarize_inseason_nested.py",
+    "build_inseason_dataset_card.py",
+    "inseason_13year_uncertainty.py",
+    "analyze_inseason_subsets.py",
+    "visualize_inseason_13year_maps.py",
+    "build_inseason_state_yield_cases.py",
+    "plot_inseason_state_yield_cases.py",
+    "export_inseason_completed_comparisons.py"
+  ],
+  "seasonal_forecast": [
+    "process_seas5_native.py",
+    "seas5_crop_weather.py",
+    "seas5_reliability_protocol.py",
+    "run_seas5_frozen_diagnostic.py",
+    "summarize_seas5_frozen_diagnostic.py"
+  ],
+  "extended_cutoffs": [
+    "run_inseason_pipeline_seed_inference.py"
+  ],
+  "independent_raw_reconstruction": [
+    "run_raw_foundation_reproduction.py",
+    "run_raw_remote_reproduction.py",
+    "run_fresh_cohort_reproduction.py",
+    "run_fresh_feature_reproduction.py",
+    "run_fresh_interface_reproduction.py"
+  ]
+}

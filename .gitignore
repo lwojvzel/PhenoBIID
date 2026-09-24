@@ -8,3 +8,7 @@ data/raw/
 data/processed/
 checkpoints/
 *.part
+.cdsapirc
+.env
+*.pem
+*.key

@@ -12,16 +12,23 @@ place the full 85 GB processed benchmark or all third-party raw products in Git.
 4. Exact paper configuration: `configs/paper_protocol.json`.
 5. Real-data interface checks: `data/sample/` and `tests/test_sample_data.py`.
 
-The two standalone conversion utilities cover GDHY longitude normalization and
-ERA5-Land aggregation. The retained NDVI/GPP preparation snapshots document the
-exact paper transformations but still depend on the full crop-calendar
-workspace; use them together with the source archive rather than treating them
-as one-command downloaders.
+`scripts/reconstruct_raw.py` provides staged GDHY, ERA5-Land, crop-calendar,
+LAI, NDVI and GPP processing from user-acquired raw products. The independent
+`scripts/build_features.py` builds cohorts and physical feature interfaces
+without fitted model predictions. The original dependency closure is retained
+under `workflow/`, and selected fitting recipes are in `configs/selected_recipes/`.
+See [RECONSTRUCTION.md](RECONSTRUCTION.md) for commands, tests and remaining
+training integration requirements. Source availability is not equivalent to
+a verified fresh-clone training reproduction.
 
 Full retraining and grid-level replay require the registered products, their
 crop-active alignment, selected historical experts, state checkpoints, and
 crop-specific LightGBM residual heads. Product licenses remain independent.
 The source ZIP in `paper/` records appendix-level training details.
+
+The main table can now be recomputed from the included annual, seed-wise
+scores using `evaluation/rebuild_main_table.py`. This checks means and sample
+standard deviations rather than asserting that a particular method wins.
 
 The paper's reference state inference used CUDA mixed precision. CPU FP32 or
 different batching can produce small numerical differences; report rather than
