@@ -37,3 +37,11 @@ override MIRCA-OS, GLASS LAI, or Copernicus/ECMWF terms.
 
 `data/reference/` contains manuscript-level aggregate measurements, not raw
 Earth-observation pixels or full grid-level labels.
+
+## Bundled real-data sample
+
+`data/sample/` contains a compact sample of the processed interface for all
+four crops, three years, and four observation cutoffs. It is selected by a
+fixed coordinate-based rule without consulting targets or predictions. Input
+arrays and reference arrays are separate. This sample supports contract tests
+and frozen inference replay only; it cannot reproduce full-dataset scores.

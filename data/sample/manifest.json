@@ -1,0 +1,164 @@
+{
+  "format_version": 1,
+  "scope": "Small real-data frozen-inference sample; not full benchmark or retraining data",
+  "crops": [
+    "maize",
+    "rice",
+    "soybean",
+    "wheat"
+  ],
+  "years": [
+    2006,
+    2007,
+    2008
+  ],
+  "fitted_through": 2005,
+  "samples_per_crop_year": 8,
+  "selection_rule": "Grid-coordinate sorted rows selected at equal intervals within each crop-year",
+  "selection_uses_targets": false,
+  "selection_uses_predictions": false,
+  "cutoffs": [
+    0.1,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "cases": [
+    {
+      "crop": "maize",
+      "ratio": 0.1,
+      "samples": 24
+    },
+    {
+      "crop": "maize",
+      "ratio": 0.3,
+      "samples": 24
+    },
+    {
+      "crop": "maize",
+      "ratio": 0.5,
+      "samples": 24
+    },
+    {
+      "crop": "maize",
+      "ratio": 0.7,
+      "samples": 24
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.1,
+      "samples": 24
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.3,
+      "samples": 24
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.5,
+      "samples": 24
+    },
+    {
+      "crop": "rice",
+      "ratio": 0.7,
+      "samples": 24
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.1,
+      "samples": 24
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.3,
+      "samples": 24
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.5,
+      "samples": 24
+    },
+    {
+      "crop": "soybean",
+      "ratio": 0.7,
+      "samples": 24
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.1,
+      "samples": 24
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.3,
+      "samples": 24
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.5,
+      "samples": 24
+    },
+    {
+      "crop": "wheat",
+      "ratio": 0.7,
+      "samples": 24
+    }
+  ],
+  "files": {
+    "README.md": "fb9268259b38391d326a951a5f64a604a6d185cb147dee5156c3849e0e4018bb",
+    "THIRD_PARTY_NOTICES.md": "46961f061ffe13282816986895342fccbee9625af8f4707de09bb228af129e7a",
+    "assets/maize/cutoff_010_inputs.npz": "42f96ea811cf66d6a4fb2a3a02647e934c5e3683624cea3cf893ef5292d456aa",
+    "assets/maize/cutoff_010_reference.npz": "910ce23d75423135fd6619902fa50a218746d86cd0f722eb56f7107b209ec7a4",
+    "assets/maize/cutoff_030_inputs.npz": "022e30cd8fa57316a57f7f4fb93c844d7cc057c5e65ad7d418e7fc334b722ce5",
+    "assets/maize/cutoff_030_reference.npz": "80b8ed2520d80a5d816633749679a9d156752b71f08cd6543aa2ed2e3a887975",
+    "assets/maize/cutoff_050_inputs.npz": "1995715aff4d0e9de7638947665960bffcb0271a7ae7ec2d97cf6bdf56861087",
+    "assets/maize/cutoff_050_reference.npz": "330e6bae47ad67ff0b7dd8bdc54373587ac2d4cf1270605761c9c362655ab6e6",
+    "assets/maize/cutoff_070_inputs.npz": "c9c61b6168550cfac73ae30b81f7a065dc1a1033974fbb061d8671ce87eb00f0",
+    "assets/maize/cutoff_070_reference.npz": "8d65099ca14cd34ca254d98fd748321f2e3eb0858d97596eb405881c00bd3759",
+    "assets/maize/gpp.pt": "13875c269407a81913aff84f0c6a56e6481271c3f95d4e3d3f6570be6ffd9c00",
+    "assets/maize/head_0.txt": "ee2d519e04fc9afe584be997f902ef257197fff15adb179f22e4c6140d78cedf",
+    "assets/maize/head_1.txt": "ec833b18037a879ae7c0c4dadadf5f3ca2830ae6efeb3fa3ca64f7b4b851aeda",
+    "assets/maize/history.pt": "761c8f25df848df17fcf057a86ec779a34023e61c586df78c9c7b0df8b652c47",
+    "assets/maize/metadata.json": "1313f06440f513caaa9d0da8d77c8f22631114c02a14b682b05a5b90b2ef5632",
+    "assets/rice/cutoff_010_inputs.npz": "8f7200cefef61d6c3042c5f42df894d5e5638618bab3ce322a51a955585be2e6",
+    "assets/rice/cutoff_010_reference.npz": "bd44306f27dfe7d3fa6d23fbd1e34bfa5976f7aabaf314aa77b99674184611c2",
+    "assets/rice/cutoff_030_inputs.npz": "6b6017f473586b6621785856c902343c8caf4aab7c056adf411f3fa15d374bd0",
+    "assets/rice/cutoff_030_reference.npz": "5647985d6ef2e0b7226fb7af630f163f940af51dbfc4b2358c5230c0c49ffa50",
+    "assets/rice/cutoff_050_inputs.npz": "1e953bf0ca8195928c89f5ae56cf1689f6531afdc954c49c6ac5e1afc0f38de1",
+    "assets/rice/cutoff_050_reference.npz": "981607a3cd53deca6c0545651fa41965f418aba4d7d7e4cb0db459e6c18e629e",
+    "assets/rice/cutoff_070_inputs.npz": "566d43f13f3ba48ba6c33b4881f7928692e041e160556dc12be8d93d5428a636",
+    "assets/rice/cutoff_070_reference.npz": "c97dafd89301dfefabdd6cce1047c21506d9cd57dab49ece015646c7ef0e089f",
+    "assets/rice/head_0.txt": "3e031abfc310a4ed4a7e8b15c20e98bb9fed54a33ca390b570b2c0b868112f9a",
+    "assets/rice/history.pt": "e4982b89b9152055e9ba4ef519d93c9d21bb8cac3370081760ceffa05c3e637f",
+    "assets/rice/metadata.json": "30cfb9bb2bb2a3644936d067bd24c3e09955e47b67f8674559190a2a0ec7d9e6",
+    "assets/rice/ndvi.pt": "68e90b06cbb9da85c310c5d1af93ab348df49d0bb19ec94a48d39989fb2a9d08",
+    "assets/soybean/cutoff_010_inputs.npz": "409416ab5022e8c725c5f334bcc36171439614ef7d3811772cfe9a2a21614aa1",
+    "assets/soybean/cutoff_010_reference.npz": "5be26c7c9d5209391dc4486da8c8e04f07fdc07ae4042c6769a8a71c4c11a63b",
+    "assets/soybean/cutoff_030_inputs.npz": "e7ad8effef9db84696e2f1c4bdad50ab4b9c2940705f02c9d46a529d4a8ea43f",
+    "assets/soybean/cutoff_030_reference.npz": "88eef4f4f29afc7dfb686175623df3142f32757a300e8e82ad916417665f4085",
+    "assets/soybean/cutoff_050_inputs.npz": "1dbb2cb8c943224243e868c68d3d07e3185d3dfd9a9c6c460cdf7fb31e1dd73a",
+    "assets/soybean/cutoff_050_reference.npz": "5f1879d4b67352ab1abc9d58ccc1de9593875f40980e84dbe9ca47823a5efbb3",
+    "assets/soybean/cutoff_070_inputs.npz": "82745dc3c39ece7c301b6dd0aa842f6e590f8bd08abe0e5d8dc8a992afc953a8",
+    "assets/soybean/cutoff_070_reference.npz": "78ef9a34dacbb0b62bf8c773e06f724f9bc76800fae058a3303d2281bc6b77d3",
+    "assets/soybean/head_0.txt": "859c227ab7a58c37e66b5e9ea5b5ec8ec3aecada3d3c2afe7311be5163f10213",
+    "assets/soybean/history.pt": "e9b02fc6d55fac0dca3555d74035e6932aed92ee52ab090a04f1d6912bdf361e",
+    "assets/soybean/history_bins.pt": "d3713bc2d873e5368819acb1caf3997304505978d72439a14a07de85c24aaf72",
+    "assets/soybean/metadata.json": "8193bc9a3eb4bf62ce53d27b45729c0ce7b0624beb6c23573e1081dc658328e4",
+    "assets/soybean/ndvi.pt": "3fe5db02e281a13b8b659cf92bc448ae0babecbc42bf027d1c06928cd49d6575",
+    "assets/soybean/tabm.pt": "c30f09a2f6bb82fad52b6f23fd95956df2ee4937c56b9edc9280ffa722eedde0",
+    "assets/wheat/cutoff_010_inputs.npz": "c9e13a72011b697ef337008ae404a5b23e99fc94aa2d3d8a3eca9b32b1eb8fcc",
+    "assets/wheat/cutoff_010_reference.npz": "52b2c6f4082ff41c69966f97f748c864a414b07b3a3dbdda215bb2c377ddd9f6",
+    "assets/wheat/cutoff_030_inputs.npz": "31b0e22dc2a80c92e9884964768a7032c05b87c0fec0a92a377a6b76d54dfecf",
+    "assets/wheat/cutoff_030_reference.npz": "590f5db044280f078c2f850e2d1c571c9c9790c0e0a65b243c626fce48c6d2a8",
+    "assets/wheat/cutoff_050_inputs.npz": "12bf8af67d21cc825294150220db3b279714a21b746114a9e02054abb7e2e685",
+    "assets/wheat/cutoff_050_reference.npz": "2b86b018581117e2eb6b2894e79e0227d4fb1791276b8ea0c67b514cf24ba001",
+    "assets/wheat/cutoff_070_inputs.npz": "060afd0cd5bc07386b84c36f7354f3c0b835fcfd2d831cc9a968044beccfc988",
+    "assets/wheat/cutoff_070_reference.npz": "981fbc43a9a00a2dc9966739ee516e5bd6bca7e2dc5ea80f8c37fe1be3154d45",
+    "assets/wheat/gpp.pt": "d9c82c0821ca79d8b5346f988a727accf9d2d560562e38c474ed4cffc0bec0d7",
+    "assets/wheat/head_0.txt": "c0eda4907f13e45239a04975ae5805530f25f115873f9661bbcd169a556c31d2",
+    "assets/wheat/history.pt": "57aaabddcff26f8586c4911dec154e18c33fd0484c60abaa67f19f6acea92f33",
+    "assets/wheat/metadata.json": "07cb0e4ec69fda5382f0720f33f6315d78727bd00e8b0ee726212da4b41c9ebc",
+    "assets/wheat/ndvi.pt": "4d86c335be3f0aa83c3b7cdb9af6179f56e355812f690637dc0f26865a725239"
+  }
+}

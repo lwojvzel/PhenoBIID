@@ -15,6 +15,7 @@ to a crop-specific, history-anchored yield readout.
 - `src/phenobiid/`: model definitions used by the released pipeline.
 - `evaluation/`: metric and reference-table validation utilities.
 - `data/reference/`: machine-readable values reported in the manuscript.
+- `data/sample/`: a 22 MB real-data sample with four crops and four cutoffs.
 - `configs/`: fixed paper protocol and source-product registry.
 - `scripts/`: source-product conversion and aggregation utilities.
 - `docs/`: dataset, evaluation, and reproducibility documentation.
@@ -46,6 +47,15 @@ versions, official records, transformations, and the expected layout are in
 [`configs/data_sources.json`](configs/data_sources.json). This repository ships
 paper-level reference measurements but does not relabel upstream products under
 a single project license.
+
+### Real-data inference sample
+
+The repository includes a deterministic sample from 2006--2008 for maize,
+rice, soybean, and wheat at 10%, 30%, 50%, and 70% unobserved suffixes. It
+separates model-visible inputs from reference targets and includes the frozen
+state, historical, and yield-readout components. See
+[`data/sample/README.md`](data/sample/README.md) for tensor shapes, selection
+rules, limitations, and the optional complete CPU replay.
 
 ## Evaluation scope
 
