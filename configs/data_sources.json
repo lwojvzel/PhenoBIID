@@ -1,0 +1,51 @@
+{
+  "gdhy": {
+    "role": "annual gridded crop-yield target",
+    "version": "v1.2/v1.3 aligned release",
+    "years": "1981-2016",
+    "resolution": "0.5 degree",
+    "record": "https://doi.org/10.1594/PANGAEA.909132",
+    "license": "CC BY 4.0 on the cited PANGAEA record"
+  },
+  "era5_land": {
+    "role": "weather conditioning",
+    "version": "ERA5-Land monthly averaged data",
+    "years": "1981-2016",
+    "resolution": "aggregated to 0.5 degree",
+    "record": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means",
+    "license": "Copernicus/ECMWF terms shown by the CDS record"
+  },
+  "pku_gimms_ndvi": {
+    "role": "vegetation state",
+    "version": "PKU GIMMS NDVI V1.2 consolidated",
+    "years": "1982-2016",
+    "resolution": "native 1/12 degree; aggregated to 0.5 degree",
+    "record": "https://zenodo.org/records/8253971",
+    "license": "CC BY 4.0"
+  },
+  "reclue_gpp": {
+    "role": "vegetation productivity state",
+    "version": "GLASS rEC-LUE monthly GPP",
+    "years": "1982-2016",
+    "resolution": "native 0.05 degree; aggregated to 0.5 degree",
+    "record": "https://zenodo.org/records/14350035",
+    "license": "CC BY 4.0"
+  },
+  "glass_lai": {
+    "role": "legacy cohort support and LAI comparison",
+    "version": "local GLASS AVHRR V40 archive",
+    "record": "https://glass.hku.hk/download.html",
+    "license": "verify version-specific redistribution terms before sharing arrays"
+  },
+  "mirca_os": {
+    "role": "crop calendar and growing-area metadata",
+    "version": "local v0.1 snapshot series",
+    "license": "verify the exact archived release before redistribution"
+  },
+  "seas5": {
+    "role": "seasonal-weather sensitivity analysis",
+    "version": "ECMWF SEAS5 system 51 monthly single levels",
+    "record": "https://cds.climate.copernicus.eu/datasets/seasonal-monthly-single-levels",
+    "license": "Copernicus/ECMWF terms shown by the CDS record"
+  }
+}
