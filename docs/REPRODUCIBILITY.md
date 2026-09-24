@@ -24,7 +24,7 @@ a verified fresh-clone training reproduction.
 Full retraining and grid-level replay require the registered products, their
 crop-active alignment, selected historical experts, state checkpoints, and
 crop-specific LightGBM residual heads. Product licenses remain independent.
-The source ZIP in `paper/` records appendix-level training details.
+The manuscript and its LaTeX source are distributed separately from this repository.
 
 The main table can now be recomputed from the included annual, seed-wise
 scores using `evaluation/rebuild_main_table.py`. This checks means and sample

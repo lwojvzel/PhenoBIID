@@ -11,7 +11,6 @@ to a crop-specific, history-anchored yield readout.
 
 ## Repository contents
 
-- `paper/`: verified manuscript PDF and matching LaTeX source archive.
 - `src/phenobiid/`: model definitions used by the released pipeline.
 - `evaluation/`: metric and reference-table validation utilities.
 - `data/reference/`: machine-readable values reported in the manuscript.
