@@ -9,6 +9,10 @@ At each cutoff, PhenoBIID keeps the observed vegetation prefix, forecasts the
 hidden NDVI/GPP suffix under given weather, and sends the completed trajectory
 to a crop-specific, history-anchored yield readout.
 
+**Full processed data:** [CropDynamicsBench on Hugging Face](https://huggingface.co/datasets/PHENOBIID/CropDynamicsBench)
+| [Download instructions](#download-the-processed-benchmark)
+| [Data layout and shapes](docs/PROCESSED_RELEASE.md)
+
 ## Repository contents
 
 - `src/phenobiid/`: model definitions used by the released pipeline.
@@ -30,7 +34,7 @@ There are three distinct workflows. Start with **A** to run the model itself.
 |---|---|---|
 | **A. Real-data example inference** | Weather-conditioned BIID rollout, historical expert and final yield readout using released weights | No; inputs and weights are included |
 | **B. Published-table reconstruction** | Aggregation of saved annual scores into the reported means and seed SDs | No; annual scores are included |
-| **C. Full-data reconstruction** | Raw-product processing and physical feature construction | Yes; obtain upstream products first |
+| **C. Full-data reconstruction** | Raw-product processing and physical feature construction | Yes; raw processing requires upstream files; processed grids can be downloaded separately |
 
 Workflow A is frozen inference, not training. Workflow B does not rerun models.
 Workflow C provides preprocessing entrypoints, but the complete fresh-data
@@ -299,6 +303,39 @@ as commands that reproduce every trained model or every paper experiment.
 
 ## Data availability
 
+### Download the processed benchmark
+
+The full selected numeric data are hosted separately on Hugging Face:
+**[PHENOBIID/CropDynamicsBench](https://huggingface.co/datasets/PHENOBIID/CropDynamicsBench)**.
+This is not just the small GitHub example: it contains the four-crop grids,
+complete selected years, crop-active mappings, weather, NDVI, GPP and legacy
+LAI. Native-grid SEAS5 forecasts are an optional separate product.
+The complete release has **52 shards, 5.48 GiB compressed / 44.40 GiB extracted**;
+reserve about 60 GiB for downloads plus extraction when selecting all products.
+
+```bash
+python -m pip install 'huggingface_hub>=0.36,<2'
+# Inspect the download size before retrieving the six main products.
+python scripts/download_processed_data.py --workspace /your/benchmark --list-only
+python scripts/download_processed_data.py --workspace /your/benchmark
+# Optional seasonal-weather data, or use --products all for every product.
+python scripts/download_processed_data.py --workspace /your/benchmark --products seas5
+```
+
+The script resolves the requested revision once, verifies SHA-256 checksums
+for archives and extracted files, and restores the original `Data/` paths.
+It defaults to the immutable release in `configs/processed_release.json`.
+Use `--revision COMMIT_HASH` to pin an immutable dataset version. The receipt
+`cropdynamicsbench_download.json` records the revision and selected products.
+Existing different files are never overwritten. Allow disk space for both the
+compressed download cache and extracted arrays.
+
+See [the processed-release guide](docs/PROCESSED_RELEASE.md) for shapes,
+directory layout, source terms and what is included. Private audit logs and
+legacy training caches are not shipped; downloading the arrays is distinct
+from reproducing every original training run. The verified frozen-inference
+example above remains self-contained.
+
 ### Official sources and processing scripts
 
 The links below point to the original providers or their deposited dataset
@@ -354,8 +391,8 @@ as shown in Workflow C. The raw-stage wrapper processes already acquired
 files; it does not automatically download them. SEAS5 processing is separate
 from these six main-data stages.
 
-The complete processed arrays are about 85 GB and combine products governed by
-different upstream terms. They are therefore not committed to Git. Exact
+The processed release is stored on Hugging Face rather than committed to Git.
+It excludes duplicate smoke-test directories and exploratory caches. Exact
 versions, official records, transformations, and the expected layout are in
 [docs/DATASET.md](docs/DATASET.md) and
 [`configs/data_sources.json`](configs/data_sources.json). This repository ships

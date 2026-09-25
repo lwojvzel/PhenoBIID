@@ -25,15 +25,13 @@ Exact records and license notes are in `configs/data_sources.json`.
 
 ## Expected local layout
 
-```text
-data/
-  raw/{gdhy,era5_land,pku_gimms_ndvi_v1p2,reclue_monthly_gpp_v1,mirca_os,glass_lai_v40,seas5}/
-  processed/{gdhy_lon180,era5_land_monthly_0p5,pku_gimms_ndvi_v1p2,reclue_monthly_gpp_v1,crop_active}/
-```
-
-Large upstream and processed arrays are ignored by Git. Obtain each product
-from its official record and comply with its terms. Project code terms do not
-override MIRCA-OS, GLASS LAI, or Copernicus/ECMWF terms.
+The processed download restores capitalized `Data/` paths under the selected
+workspace; see [PROCESSED_RELEASE.md](PROCESSED_RELEASE.md) for the exact layout.
+Full selected numeric arrays are hosted at
+[PHENOBIID/CropDynamicsBench](https://huggingface.co/datasets/PHENOBIID/CropDynamicsBench).
+For reconstruction from raw products, use the separate raw layout in
+[RECONSTRUCTION.md](RECONSTRUCTION.md). Large arrays remain excluded from Git.
+Project code terms do not override upstream product terms.
 
 `data/reference/` contains manuscript-level aggregate measurements, not raw
 Earth-observation pixels or full grid-level labels.

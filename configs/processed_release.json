@@ -1,0 +1,13 @@
+{
+  "repo_id": "PHENOBIID/CropDynamicsBench",
+  "repo_type": "dataset",
+  "revision": "3c60edcbda0b4fda3151520ae4ea5994df860268",
+  "manifest_sha256": "2454944bb534759f500ffcd680f671535c02125390d524fe70972ca2c28d0d2a",
+  "release_date": "2026-09-25",
+  "files": 2691,
+  "shards": 52,
+  "unpacked_bytes": 47676607143,
+  "packed_bytes": 5882916481,
+  "default_products": ["crop_active", "era5_land", "gdhy", "lai", "ndvi", "gpp"],
+  "optional_products": ["seas5"]
+}

@@ -1,8 +1,11 @@
 # Reproducibility boundary
 
-This repository fixes the manuscript, model definitions, data registry,
-protocol, metric implementation, and paper-level reference values. It does not
-place the full 85 GB processed benchmark or all third-party raw products in Git.
+This repository fixes the model definitions, data registry, protocol, metric
+implementation, and paper-level reference values. Full selected processed
+numeric arrays are distributed through
+[Hugging Face](https://huggingface.co/datasets/PHENOBIID/CropDynamicsBench),
+not Git. See [PROCESSED_RELEASE.md](PROCESSED_RELEASE.md) for retrieval,
+checksums, scope and the distinction from legacy training caches.
 
 ## Immediate checks
 
