@@ -40,6 +40,9 @@
   "mirca_os": {
     "role": "crop calendar and growing-area metadata",
     "version": "local v0.1 snapshot series",
+    "record": "https://doi.org/10.4211/hs.60a890eb841c460192c03bb590687145",
+    "publication": "https://doi.org/10.1038/s41597-024-04313-w",
+    "record_scope": "Provider dataset record; exact local v0.1 archive/checksum correspondence not yet verified",
     "license": "verify the exact archived release before redistribution"
   },
   "seas5": {

@@ -299,6 +299,61 @@ as commands that reproduce every trained model or every paper experiment.
 
 ## Data availability
 
+### Official sources and processing scripts
+
+The links below point to the original providers or their deposited dataset
+records. Years refer to the subset used by this project, not necessarily the
+full period available from the provider. Obtain the exact product/version
+before processing; the latest release is not automatically interchangeable.
+
+| Data | Official source | Project use and years | Processing source |
+|---|---|---|---|
+| GDHY v1.2/v1.3 | [PANGAEA dataset record](https://doi.org/10.1594/PANGAEA.909132) | Annual crop yield, 1981--2016 | [Longitude conversion to NumPy](workflow/scripts/convert_gdhy_to_npy_lon180.py) |
+| ERA5-Land monthly means | [Copernicus CDS](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means) | Main weather inputs, 1981--2016 | [Aggregate to 0.5 degrees](workflow/scripts/aggregate_era5land_monthly_to_gdhy_npy.py), [split variables](workflow/scripts/split_era5land_0p5deg_npy_by_variable.py) |
+| MIRCA-OS monthly growing areas | [Provider HydroShare record](https://doi.org/10.4211/hs.60a890eb841c460192c03bb590687145), [dataset paper](https://doi.org/10.1038/s41597-024-04313-w) | Crop-active month mappings and crop areas; 2000/2005/2010/2015 snapshots | [Build crop-active dataset](workflow/scripts/build_crop_growing_season_dataset.py) |
+| PKU GIMMS NDVI V1.2 | [Zenodo record 8253971](https://zenodo.org/records/8253971) | Vegetation state, 1982--2016; consolidated product | [Monthly aggregation and crop-active alignment](workflow/scripts/prepare_pku_ndvi.py) |
+| Monthly rEC-LUE GPP | [Zenodo record 14350035](https://zenodo.org/records/14350035) | Productivity state, 1982--2016; monthly totals converted to daily mean rates | [GPP processing](workflow/scripts/prepare_reclue_monthly_gpp.py), [full-period verification](scripts/finalize_gpp.py) |
+| GLASS AVHRR LAI | [GLASS official download portal](https://glass.hku.hk/download.html) | Legacy cohort construction and LAI comparisons, 1981--2016 | [8-day to monthly and crop-active alignment](workflow/scripts/process_glass_lai_avhrr_to_growing_season.py) |
+| ECMWF SEAS5, system 51 | [Copernicus seasonal forecast CDS](https://cds.climate.copernicus.eu/datasets/seasonal-monthly-single-levels) | Separate weather-reliability experiments; not required for the main ERA5-Land setting | [Native weather processing](workflow/scripts/process_seas5_native.py), [crop-weather interface](workflow/scripts/seas5_crop_weather.py) |
+
+**Version and access notes:**
+
+- MIRCA-OS is not MIRCA2000. The provider record above identifies the data
+  family, but the exact local v0.1 archive/checksum match remains to be pinned.
+  The processing script checks the expected coordinate convention.
+- The LAI pipeline uses the local GLASS AVHRR V40 archive. The portal is a
+  discovery link, not a verified immutable download of that exact version.
+- rEC-LUE GPP is a model-derived product using vegetation and environmental
+  inputs, not an independent direct satellite observation of productivity.
+- CDS downloads require the provider's account, applicable terms acceptance,
+  and API setup when using a downloader. Do not put credentials in this repo.
+- Retain the upstream citations and applicable redistribution terms. A public
+  source URL does not imply that every derived array can be republished under
+  a single new license.
+
+### Run the processing stages
+
+Use [`scripts/reconstruct_raw.py`](scripts/reconstruct_raw.py) as the staged
+entrypoint rather than invoking the research-workspace scripts with unspecified
+paths. After initializing a separate workspace and placing the raw products
+in the [documented layout](docs/RECONSTRUCTION.md), run these in order:
+
+```bash
+python scripts/reconstruct_raw.py --workspace /your/reconstruction --stage gdhy
+python scripts/reconstruct_raw.py --workspace /your/reconstruction --stage weather
+python scripts/reconstruct_raw.py --workspace /your/reconstruction --stage calendar
+python scripts/reconstruct_raw.py --workspace /your/reconstruction --stage lai
+python scripts/reconstruct_raw.py --workspace /your/reconstruction --stage ndvi
+python scripts/reconstruct_raw.py --workspace /your/reconstruction --stage gpp
+```
+
+The main data path is raw products -> common 0.5-degree grid -> shared
+crop-active slots -> sample cohorts and model features. Use
+[`scripts/build_features.py`](scripts/build_features.py) for the last step,
+as shown in Workflow C. The raw-stage wrapper processes already acquired
+files; it does not automatically download them. SEAS5 processing is separate
+from these six main-data stages.
+
 The complete processed arrays are about 85 GB and combine products governed by
 different upstream terms. They are therefore not committed to Git. Exact
 versions, official records, transformations, and the expected layout are in
